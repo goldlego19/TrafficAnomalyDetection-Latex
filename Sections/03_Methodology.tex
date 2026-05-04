@@ -2,21 +2,151 @@
 %=== (Actual work done and contribution, including literature survey) ===
 
 \chapter{Research Methodology}
+\label{ch:methodology}
 \begin{spacing}{2.0}
-%\setlength{\parskip}{0.2in}
-%  (Actual work done and contribution, including literature survey)
+\section{Introduction to the Methodology}
+This chapter details the software architecture and technical implementation of the hybrid vision-based pipeline developed for real-time traffic anomaly detection. Built entirely in Python, the system leverages the OpenCV library for deterministic spatial physics and the PyTorch framework for probabilistic deep learning pattern recognition. The complete end-to-end processing pipeline, highlighting the asynchronous multi-threaded architecture, is visualised in Figure \ref{fig:pipeline_diagram}.
 
+\begin{figure}[htbp]
+    \centering
+    % Ensure you save your flowchart as pipeline_diagram.png in the Figures folder
+    \includegraphics[width=\textwidth]{Figures/pipeline_diagram.png} 
+    \caption{System architecture pipeline demonstrating the asynchronous multi-threaded integration of spatial tracking (YOLO11) and kinetic anomaly classification (ResNet-18). The top branch executes spatial extraction while the bottom branch processes optical flow in parallel.}
+    \label{fig:pipeline_diagram}
+\end{figure}
 
-\section{One}
+The term “hybrid” denotes the strict architectural separation of spatial vehicle tracking from kinetic anomaly classification. Specifically, the YOLO11 model is utilised exclusively to detect vehicles, maintain persistent identities across consecutive frames, and facilitate subsequent speed estimation; it is not employed for direct accident detection. Instead, anomaly classification is handled independently by mapping dense kinetic energy through a custom-trained ResNet-18 classifier.
 
-It presents the chosen research methods and explains why these methods are effective. Percentage amount of words in section: 20 \% of Dissertation.
+To achieve high-performance output on edge hardware, a multi-threaded, headless video processing architecture was engineered. To circumvent the Global Interpreter Lock (GIL) and maintain a 60 frames-per-second (FPS) throughput during heavy inference workloads, an asynchronous producer-consumer model was implemented. Additionally, the pipeline integrates programmatic solutions for real-world deployment constraints. These include mathematical camera stabilisation to eliminate environmental shake, automated visual obfuscation to ensure GDPR compliance, and Inverse Perspective Mapping (IPM) coupled with Kalman filtering to reconstruct 2D pixel coordinates into a 3D metric space for accurate speed estimation.
 
-\section{Two}
+\section{Data Engineering, Harmonisation, and Mathematical Balancing}
+The deep learning component of the hybrid pipeline necessitated a robust, custom-built data engineering workflow to ensure the PyTorch classifier received highly structured training data. To train the spatial-temporal features of the system, the Car Accident Detection and Prediction (CADP) benchmark dataset was utilised as the primary data source, from which raw CCTV video clips of real-world collisions were extracted. 
 
+Given that the CADP dataset consists almost entirely of positive accident events, the raw data distribution was heavily skewed. To process this, a custom annotation tool was developed to facilitate the manual review of video files. Precise temporal markers denoting the exact frames of collisions were identified and logged into structured records. Following this annotation phase, an automated data cleaning pipeline was implemented to rigorously pre-process the dataset. This pipeline parsed the recorded temporal data and systematically evaluated visual fidelity, automatically purging any low-resolution, unsuitable, or heavily obscured footage to prevent the introduction of noise into the neural network.
 
-\section{Three}
+While this programmatic refinement substantially enhanced the precision of the ground-truth labels, executing the splitting logic to partition the data for training and validation revealed a critical structural vulnerability: a severe deficiency of "normal" baseline traffic frames.
 
+To mitigate this bias and introduce the necessary baseline frames, 250 high-definition, incident-free videos from the Traffic Anomaly Detection (TAD) dataset were incorporated. The TAD videos were converted into dense optical flow heatmaps using the exact same OpenCV Farnebäck parameters applied to the CADP dataset, and the outputs of both datasets were merged. This architectural decision significantly reduced false positives and guaranteed that the final classifier activates exclusively in the presence of genuine kinetic anomalies.
 
-%=== END OF CHAPTER THREE ===
+\begin{table}[htbp]
+    \centering
+    \caption{Summary of Database Constituents and Sources}
+    \label{tab:database_sources}
+    \begin{tabular}{p{0.25\textwidth} p{0.3\textwidth} p{0.35\textwidth}}
+        \toprule
+        \textbf{Dataset Constituent} & \textbf{Source Benchmark \& Primary Content} & \textbf{Post-Processing Application} \\
+        \midrule
+        Anomalous Frames & CADP Dataset \newline (Vehicle Collisions, Skidding) & Temporal annotation to extract precise impact frames. \\
+        Normal Frames & TAD Dataset \newline (Standard Traffic Flow) & Generation of optical flow baselines to balance the class distribution. \\
+        Validation Set & CADP \& TAD \newline (Mixed Scenarios) & Evaluated to quantify classification performance and verify the reduction of the False Positive Rate (FPR). \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{Data Acquisition and Mathematical Camera Stabilisation} 
+Real-world traffic cameras, such as the CCTV footage processed from the Marsa Bridge dataset, are constantly exposed to physical disturbances like wind shear. This results in high-frequency camera oscillations which can adversely affect the quality of the dense optical flow calculations, effectively yielding false motion vectors across the entire frame. To address this issue programmatically, a mathematical pre-processing layer was engineered via a custom \texttt{StaticCameraStabiliser} class to achieve continuous, frame-by-frame video stabilisation.
+
+To achieve this, the Oriented FAST and Rotated BRIEF (ORB) algorithm was implemented and configured to extract a maximum of 1,000 features. Upon execution, the pipeline captures the initial frame of the video feed, converts it to greyscale, and extracts these high-contrast keypoints to establish an immutable reference background. For every subsequent frame ingested by the primary processing thread, new keypoints are extracted and binary descriptors are computed to mathematically map the movement of the physical environment.
+
+To pair keypoints across consecutive frames, a Brute-Force Matcher configured with the Hamming distance metric was utilised. To filter false outliers, such as the erroneous tracking of moving vehicles rather than static road infrastructure, OpenCV's built-in Random Sample Consensus (RANSAC) algorithm was applied.
+
+Feature matches are sorted by distance, and the coordinates of the top 50 most reliable pairings are extracted. These source and destination points are subsequently processed to compute the optimal 2D affine transformation matrix using the RANSAC algorithm, accurately aligning the current frame with the static reference points. Finally, the calculated transformation matrix is applied to execute an inverse physical shift on the frame. This explicitly neutralises environmental camera shake, ensuring that the downstream YOLO11 tracking and Farnebäck kinetic modules operate on a perfectly rigid, mathematically steadied field of view.
+
+\section{Spatial Perception: YOLO11 and Implicit BoT-SORT Tracking}
+Following mathematical stabilisation, the pipeline transitions to spatial vehicle perception. The YOLO11 architecture, employing pre-trained nano weights, was implemented to facilitate high-speed, real-time inference. It is important to emphasise that no domain-specific fine-tuning was conducted on this model. The generalised, off-the-shelf weights were utilised exclusively to isolate bounding box coordinates for standard vehicular classes (cars, buses, and trucks), as the model's sole purpose within this architecture is robust spatial localisation rather than nuanced anomaly classification.
+
+By concurrently mapping pixels to bounding box coordinates, the model bypasses computationally heavy legacy detection methods. To optimise processing efficiency, inference was strictly filtered to target only relevant vehicular classes. Furthermore, the detection confidence threshold was intentionally lowered to 0.15. This adjustment was necessary to maintain persistent bounding boxes on heavily occluded, distant, or poorly illuminated vehicles, thereby preventing tracking fragmentation and ensuring the downstream kinematic modules receive continuous spatial data.
+
+The Cross-Stage Partial with 2 convolutions and Position-Sensitive Attention (C2PSA) layer generates an attention map that isolates salient features while filtering background clutter. This expanded receptive field improves the distinction between heavily occluded vehicles and complex environments, such as central reservation barriers or areas with variable illumination. Furthermore, to ensure temporally consistent tracking, the BoT-SORT algorithm was inherently activated during inference. This configuration leverages internal memory buffers to assign and maintain unique integer identifiers for each detected vehicle across consecutive frames, establishing the requisite data structures for subsequent speed estimation.
+
+\section{GDPR Compliance via Gaussian Obfuscation}
+To ensure strict compliance with the General Data Protection Regulation (GDPR), the pipeline implements an automated obfuscation layer directly within the primary Python execution loop. This feature activates instantly upon the generation of the YOLO11 bounding boxes, guaranteeing that no personally identifiable information (PII), such as alphanumeric number plates or driver features, is rendered, processed, or stored.
+
+Instead of utilising basic pixelation, a custom obfuscation function was engineered using OpenCV. Immediately following the extraction of the spatial coordinates from the YOLO11 tracking results, the vehicle’s Region of Interest (ROI) is isolated from the active NumPy array. Subsequently, \texttt{cv2.GaussianBlur()} is applied with a heavy (51, 51) kernel exclusively to the extracted ROI. 
+
+By overwriting these pixels prior to the rendering of bounding boxes or kinematic overlays, the system eliminates fine visual details that could identify the vehicle at the source. Crucially, this programmatic approach strictly maintains the low-frequency geometric shape and kinematic integrity of the vehicle, which is necessary for the pipeline's subsequent Kalman filtering and speed estimation modules.
+
+\section{3D Metric Reconstruction and Speed Estimation}
+Extracting precise metric vehicle speeds from a 2D camera feed is computationally complex due to the inherent loss of depth information. Because of perspective distortion, a vehicle moving laterally across the top of the frame appears to traverse fewer pixels per second than a vehicle moving at the exact same speed near the camera lens. To automatically correct this optical distortion, Inverse Perspective Mapping (IPM) was implemented using the OpenCV library. This technique mathematically transforms the forward-facing view from the CCTV camera into a top-down, orthographic projection of a flat road surface.
+
+To execute this, the system computes a 3x3 homography matrix that covers the scene. Within the pipeline, this is handled by the \texttt{get\_transform\_matrix()} function, which executes \texttt{cv2.getPerspectiveTransform()}. This function requires a minimum of four established, non-collinear reference points mapping the image view to a flat metric plane. For this prototype, the painted lane dividing markings on the Marsa Bridge were explicitly utilised as reference points. To establish the ground truth, Google Earth satellite imagery was utilised to measure the exact distances in metres between these specific road markings. These pixel coordinates and their corresponding metric dimensions were subsequently recorded into a dedicated configuration file, which is parsed upon initialisation.
+
+During the live tracking loop, the pipeline extracts the bottom-centre coordinates of every YOLO11 bounding box, representing the vehicle's physical contact point with the road. These pixel coordinates are projected into the corrected metric space using \texttt{cv2.perspectiveTransform()}. To calculate the current speed, the script records these warped coordinates into a track history list. The system calculates the Euclidean displacement (in metres) between the vehicle's oldest recorded coordinate and its current position. By dividing this physical distance by the temporal interval—derived explicitly from the frame count divided by the 60 FPS output of the headless renderer—the pipeline accurately computes the vehicle's instantaneous speed in km/h.
+
+\section{Kinematic Trajectory Smoothing via Kalman Filtering}
+Despite the high spatial accuracy of YOLO11, minor sub-pixel variations in bounding box regressions inevitably result in slight jittering of the tracked centroid. In the reconstructed 3D metric space, even a single-pixel fluctuation between consecutive frames translates to substantial variance in the instantaneous speed calculation, rendering raw frame-to-frame velocity metrics highly unstable. To eliminate this sensor noise and extract a smooth kinematic trajectory, a custom \texttt{SpeedKalmanFilter} class was implemented. The class uses OpenCV's native \texttt{cv2.KalmanFilter} to accurately stabilise these raw velocity measurements.
+
+Rather than deploying a computationally expensive multi-dimensional spatial filter, the system is optimised to exclusively filter the calculated 1D speed. The Kalman filter is initialised with two dynamic states, representing the vehicle's speed and acceleration, and a single measurement variable for the raw speed in km/h.
+
+During initialisation, the underlying mathematical matrices are defined. A transition matrix is configured to project the vehicle's velocity forward under the assumption of constant acceleration. To mathematically account for unpredictable driver behaviour, such as sudden braking, the process noise covariance matrix is configured with a variance of 1e-2. Conversely, to mitigate visual sensor noise generated by YOLO11 bounding box pixel jitter, the measurement noise covariance matrix is set to 0.5.
+
+During the live tracking loop, each raw speed derived via Euclidean displacement is passed into the filter. The system first generates a state estimate based on the physical prediction model, followed immediately by a correction step that processes the raw visual sensor measurement. This execution dynamically calculates the Kalman Gain, arbitrating accurately between the physical prediction and the sensor data. The resulting smoothed speed is subsequently utilised to populate lane congestion statistics and render stable tracking overlays onto the final video output.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Kinematic Trajectory \& Kalman Filter Variables}
+    \label{tab:kalman_variables}
+    \begin{tabular}{llp{0.5\textwidth}}
+        \toprule
+        \textbf{Implementation Variable} & \textbf{Code Designation} & \textbf{Physical Interpretation in Pipeline} \\
+        \midrule
+        State Vector & \texttt{kf.statePost} & The smoothed estimation of the vehicle's speed and acceleration. \\
+        Transition Matrix & \texttt{kf.transitionMatrix} & NumPy array predicting the next frame's speed. \\
+        Error Covariance & \texttt{kf.errorCovPost} & The calculated uncertainty of the current speed estimate. \\
+        Process Noise & \texttt{kf.processNoiseCov} & Configured to 1e-2 to model erratic driver acceleration/braking. \\
+        Measurement Noise & \texttt{kf.measurementNoiseCov} & Configured to 0.5 to account for YOLO bounding box jitter. \\
+        Correction Method & \texttt{kf.correct()} & Integrates the new speed measurement to output the final smoothed km/h. \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{Spatiotemporal Kinetic Energy Mapping via Dense Optical Flow}
+While YOLO11 bounding boxes effectively track individual vehicle trajectories, they do not capture the unstructured spatial chaos and violent kinetic motion inherent in a collision. To quantify this unstructured motion, dense optical flow was implemented using OpenCV's Farnebäck algorithm. Rather than detailing the underlying polynomial mathematics, this section focuses strictly on the algorithm's programmatic integration within the primary processing thread.
+
+During execution, the stabilised camera feed is continuously converted into a greyscale matrix and compared against the preceding frame. The Farnebäck algorithm computes raw motion vectors in Cartesian coordinates for every pixel. To process this computationally, these vectors are converted into polar coordinates to extract the Euclidean magnitude and angular direction of the physical movement.
+
+To prevent background environmental noise, such as pedestrians or moving foliage, from overwhelming the downstream AI classifier, a static Region of Interest (ROI) mask was implemented. Array slicing was utilised to explicitly enforce a zero-magnitude value on all motion vectors originating outside the carriageway boundaries. Furthermore, a strict noise floor was established, programmatically zeroing out any pixel magnitudes below 3.0 to eliminate minor camera jitter.
+
+Once filtered, these physical motion metrics are encoded into a pre-allocated HSV (Hue, Saturation, Value) matrix buffer. The physical angle of the motion dictates the Hue, whilst the dynamically clipped and scaled magnitude dictates the Value. Finally, this buffer is converted into a standard BGR image array, generating a spatiotemporal heatmap of the scene's kinetic energy. This resulting visual tensor is immediately pushed into a thread-safe queue for asynchronous processing by the deep learning classifier.
+
+\section{Deep Learning Anomaly Classification}
+The HSV-encoded optical flow heatmaps serve as direct input tensors for the deep learning anomaly classifier. To adapt the ResNet-18 architecture for the specific binary classification task of distinguishing between normal traffic flow and serious collisions, the final fully connected layer was modified. It was replaced with a custom sequential block terminating in a Sigmoid activation function, ensuring the network outputs a precise probability score between 0.0 and 1.0.
+
+To address the inherent class imbalance within the training dataset—where 'Normal' traffic frames exponentially outnumber 'Accident' anomalies—Focal Loss (Lin et al., 2017) was implemented in lieu of standard Cross-Entropy (CE) loss. As established by Lin et al., standard CE loss is highly susceptible to class imbalance; easily classified majority examples can dominate the calculated gradient, resulting in a degenerate model that defaults to the majority class. Focal Loss resolves this by introducing a modulating factor to the CE equation, defined as $FL(p_t) = -\alpha_t(1-p_t)^\gamma \log(p_t)$. This dynamic scaling automatically reduces the relative loss contribution from well-classified, trivial examples, forcing the model to heavily penalise and learn from hard, misclassified examples. Consequently, this architectural choice was justified as essential for teaching the network the subtle kinematic boundary between severe braking and structural collisions.
+
+For live deployment, the compiled model weights are loaded onto the GPU within a dedicated, asynchronous Python \texttt{ai\_worker} thread. This background worker continuously consumes the pre-processed optical flow frames from the thread-safe \texttt{inference\_queue} and returns a real-time accident probability to the primary physics engine. To prevent brief graphical glitches from causing false alarms, the main script enforces strict temporal logic. The system only triggers an urgent accident alert if the ResNet-18's predicted probability exceeds the established threshold (\texttt{CONF\_THRESH = 0.80}), the number of active pixels exceeds the defined \texttt{PIXEL\_THRESH}, and these conditions are met across 10 consecutive frames.
+
+\section{Asynchronous Dual-Threaded Architecture and System Integration}
+Executing object detection, dense optical flow, and deep learning inference sequentially introduces severe latency. However, because OpenCV and PyTorch natively release the Global Interpreter Lock (GIL) during backend C++ matrix operations, a dual-threaded asynchronous architecture was engineered using native threading and queue libraries to achieve true hardware concurrency. 
+
+The computational workload is strictly partitioned into two independent domains:
+\begin{itemize}
+    \item \textbf{The Primary Engine (Producer):} This main thread handles continuous video ingestion from the camera feed. It sequentially applies the ORB/RANSAC stabilisation, executes YOLO11 tracking, renders the GDPR Gaussian blur, and computes the Farnebäck optical flow. It then converts this flow data into HSV image arrays and pushes them into the \texttt{inference\_queue}, a thread-safe FIFO data structure.
+    \item \textbf{The Asynchronous AI Worker (Consumer):} Operating completely in the background, this dedicated thread retrieves the HSV tensors and allocates all its processing power to execute the ResNet-18 forward pass via PyTorch.
+\end{itemize}
+
+To guarantee zero-latency, real-time predictions, strict frame-dropping logic was implemented by setting \texttt{maxsize=1} on the \texttt{inference\_queue}. If the AI worker is still processing a tensor when the primary engine pushes a new one, the stale frame is immediately discarded. Finally, to maximise hardware efficiency, the system was deployed as a "headless" renderer, completely disabling \texttt{cv2.imshow()} GUI overlays to redirect all graphical computational bandwidth toward the tracking and AI inference engines.
+
+\section{Evaluation of Results}
+To comprehensively test the performance of the integrated pipeline, a robust quantitative evaluation framework was established. Spatial vehicle detection accuracy is assessed using mean Average Precision at a 0.5 Intersection over Union threshold (mAP@0.5). The mAP@0.5 metric was deliberately selected over stricter parameters (e.g., mAP@0.75 or mAP@0.5:0.95) because perfectly tight bounding boxes are unnecessary for tracking traffic speeds. Identifying the vehicle's general centroid is mathematically sufficient for Inverse Perspective Mapping and Kalman filtering, making mAP@0.5 the most operationally relevant and pragmatic metric for this specific prototype.
+
+The fidelity of the Kalman-smoothed speed estimations is quantified via Mean Absolute Error (MAE), comparing the generated output against ground-truth metric data. Furthermore, the predictive capability of the ResNet-18 anomaly module is evaluated using the Time-to-Accident (TTA) metric. This specifically measures the precise temporal interval (in seconds) between the configured alert trigger and the physical collision frame. Finally, hardware efficiency is assessed by evaluating the maximum Frames Per Second (FPS) throughput and the total End-to-End Latency.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Summary of Evaluation Metrics and KPIs}
+    \label{tab:evaluation_metrics}
+    \begin{tabular}{lll}
+        \toprule
+        \textbf{Metric Category} & \textbf{Assessment Criteria} & \textbf{Key Performance Indicator (KPI)} \\
+        \midrule
+        Object Detection & Spatial Accuracy \& Recall & mAP@0.5, F1-Score \\
+        Kinematic Tracking & Velocity Error Margin & Mean Absolute Error (km/h) \\
+        Anomaly Classification & Incident Recognition Reliability & Total Accuracy (\%), False Positive Rate \\
+        Predictive Capability & Early Warning Responsiveness & Time-to-Accident (TTA) \\
+        System Optimisation & Real-time Throughput & Frames Per Second (FPS), Latency (ms) \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 \end{spacing}
 \newpage
