@@ -12,10 +12,10 @@
 
 \addcontentsline{toc}{chapter}{Abstract}
 
-This section should clearly state what the study is about, summarizing how it was carried out and what the results were. References are not to be included in the abstract. It should present only the essentials of the work in general. 
+The rapid expansion of urban infrastructure necessitates the implementation of robust Intelligent Transport Systems (ITS) to mitigate traffic accidents and congestion. However, traditional vision-based monitoring systems often struggle to balance precise spatiotemporal detection of complex collisions with the stringent latency requirements inherent to real-time edge computing. To address this challenge, this study proposes a novel, hybrid vision-based framework that structurally separates spatial vehicle tracking from kinetic anomaly classification. The architecture utilises a pre-trained YOLO11 model and BoT-SORT for persistent spatial tracking, combined with Inverse Perspective Mapping (IPM) and Kalman filtering to estimate three-dimensional metric speeds. Simultaneously, an asynchronous kinetic thread captures unstructured physical motion employing Farnebäck dense optical flow, which feeds spatiotemporal tensors into a custom-trained ResNet-18 Convolutional Neural Network. The system's performance, evaluated against the CADP and TAD benchmark datasets, demonstrated an impressive overall accuracy of 96.61% and an F1-score of 0.966, successfully addressing class imbalance through the utilisation of a Focal Loss function. Importantly, the dual-threaded producer-consumer architecture maintained a real-time processing rate of 60 frames per second, with a Time-to-Accident latency of only 220 milliseconds. Additionally, the system incorporates automated GDPR-compliant obfuscation and mathematical camera stabilisation techniques, resulting in a highly resilient, privacy-preserving prototype suitable for deployment within modern municipal traffic surveillance networks.
 
 \par
-\textbf{Keywords:} Dissertation, keywords.
+% \textbf{Keywords:} Dissertation, keywords.
 \end{spacing}
 \newpage
 %=== END OF ABSTRACT ===

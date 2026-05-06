@@ -2,152 +2,42 @@
 %=== INTRODUCTION ===
 
 \chapter{Introduction}
+\label{ch:introduction}
+
 \begin{spacing}{2.0}
 %\setlength{\parskip}{0.2in}
 
-In this section, \textbf{you}, the Student, are expected to state clearly:
-%An alphabetcial list of items. Change the \alph* to \Alph* or \roman*
-\begin{enumerate}[label=(\alph*)]
-    \item the `problem’ or `question’ being researched;
-    \item why this topic was chosen;
-    \item what motivated the you to choose this topic;
-    \item why did you investigate the topic the way you did;
-    \item what problem did the you wish to explore;
-    \item what is the context for the research?
-\end{enumerate}
-%Percentage amount
-Percentage amount of words in section: 10 \% of Dissertation*
+\section{Background and Context}
+The rapid and ongoing expansion of global urban infrastructure has led to an unprecedented rise in vehicular traffic. As a result, this increased density has heightened the frequency of road traffic collisions and systemic congestion, thereby posing substantial risks to public safety and economic efficiency. In response to these escalating challenges, contemporary municipal authorities are progressively adopting Intelligent Transport Systems (ITS) to protect public infrastructure and optimise traffic management. Traditionally, traffic monitoring has depended heavily on intrusive hardware, such as inductive loop detectors, or manual human observation. However, these conventional methods present notable operational limitations; physical sensors are unable to furnish comprehensive spatial context, while human observation remains inherently vulnerable to fatigue-induced errors and delayed response times. To address these shortcomings, the integration of deep learning and computer vision technologies into existing Closed-Circuit Television (CCTV) networks has emerged as a highly effective, non-intrusive approach for collecting high-dimensional data concerning vehicle trajectories, interactions, and anomalies.
 
-\section{Sub-chapter One}
+\section{Problem Statement}
+Notwithstanding these advancements, the task of robust traffic anomaly detection continues to constitute a highly intricate challenge within the field of computer vision. Current object detection architectures, although highly effective at isolating individual vehicles under ideal conditions, often prove inadequate when faced with the chaotic and unstructured spatial dynamics characteristic of a physical collision. During such incidents, the visual profiles of vehicles tend to intersect, deform, or fragment, resulting in the failure of conventional bounding-box-based spatial trackers to maintain consistent identification.
 
+Conversely, while complex spatiotemporal networks such as Transformer-based architectures, are capable of effectively modelling these interactions over time, they necessitate significant computational resources. This substantial processing requirement renders them largely impractical for real-time deployment on resource-constrained edge devices at the municipal level. Additionally, real-world environmental factors, including high-frequency camera oscillations caused by wind shear, adverse weather conditions, and varying illumination levels, markedly impair the reliability of isolated detection models. Systems that depend solely on either spatial tracking or deep learning classification frequently exhibit unacceptable false-positive rates or suffer from debilitating processing delays, thereby undermining their suitability for life-saving early-warning applications.
 
-Background goes here. Also you can put in some references~\cite{ronneberger2015unet}.
+\section{The Proposed Hybrid Architecture}
+To address this technological disparity, the present research introduces an innovative, hybrid vision-based framework devised explicitly for real-time traffic anomaly detection. The core advancement of this architecture resides in the rigorous separation of spatial vehicle tracking from kinetic anomaly classification. Rather than utilising a single, monolithic neural network to interpret both positional data and severity of impact, the system adopts an asynchronous, dual-threaded producer-consumer pipeline engineered to optimise hardware concurrency.
 
-Another example of citations \cite{latex2e,ronneberger2015unet,smith2020deep}.
+The primary spatial thread employs a pre-trained YOLOv1 model in conjunction with the BoT-SORT algorithm to establish and sustain persistent vehicle identities. By utilising Inverse Perspective Mapping (IPM) and Kalman filtering, the system projects two-dimensional pixel coordinates into a three-dimensional metric space, thereby enabling highly stable, real-time speed estimation. Simultaneously, a secondary kinetic thread assesses the unstructured physical motion within the scene employing the Farnebäck algorithm for dense optical flow. This raw kinetic data is encoded into a spatiotemporal Hue-Saturation-Value (HSV) tensor and subsequently classified using a custom-trained ResNet-18 Convolutional Neural Network (CNN).
 
-Here is a sample of table in \autoref{tabelsample}
+Beyond the core detection capabilities, the pipeline is enhanced with programmatic solutions intended to address practical deployment constraints. These encompass mathematical camera stabilisation employing the Oriented FAST and Rotated BRIEF (ORB) algorithm to mitigate environmental camera shake, as well as automated Gaussian obfuscation to ensure strict adherence to the General Data Protection Regulation (GDPR) by disabling Personally Identifiable Information (PII) at the source.
 
+\section{Aims and Objectives}
+The primary objective of this research is to develop a highly accurate and computationally efficient prototype capable of sustaining a throughput of sixty frames per second on standard consumer-grade hardware. The system aims to integrate the deterministic logic associated with rule-based spatial tracking with the probabilistic pattern recognition offered by deep learning.
 
-\begin{table}[ht]
-\centering
-\arrayrulecolor[rgb]{0.596,0.596,0.596}
-{\def\arraystretch{1.5}
-    \begin{tabular}{|c|c|c|c|c|} 
-    \hline
-    
-    \textbf{Age Groups}  & \textbf{Frequency} & \textbf{Percent} & \textbf{Valid Percent} & \textbf{Cumulative Percent}  \\[5pt]
-    
-    \hline 
-    \textbf{16-20 years} & \textbf{100}       & \textbf{98.2}    & \textbf{98.2}          & \textbf{95.2}                \\ 
-    \hline
-    \textbf{21-25 years} & \textbf{5}         & \textbf{4.8}     & \textbf{4.8}           & \textbf{100.0}               \\ 
-    \hline
-    \textbf{Total}       & \textbf{105}       & \textbf{100.0}   & \textbf{100.0}         &                              \\
-    \hline
-    \end{tabular}
-}
-\arrayrulecolor{black}
-\caption{Age of Participants}
-\label{tabelsample}
-\end{table}
+To this end, the network was meticulously trained and evaluated using a mathematically balanced synthesis of the Car Accident Detection and Prediction (CADP) and Traffic Anomaly Detection (TAD) benchmark datasets. In addressing the inherent class imbalance characteristic of traffic data where normal driving vastly exceeds incidents such as collisions, a Focal Loss function was employed to compel the network to dynamically prioritise complex kinetic boundary scenarios over more readily classified traffic patterns.
 
+Ultimately, the goal is to achieve near-instantaneous detection latency for Time-to-Accident (TTA), thereby establishing a reliable foundation for automated municipal alert systems.
 
-
-Use  \texttt{$\backslash$newpage} to force start a new page.
-
-\newpage
-
-A very quick way to create tables in a point \& click environment is to use an online table generator\footnote{https://www.tablesgenerator.com}
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=14cm, fbox]{Figures/tablesgenerator.jpg}
-\caption{Create a Booktabs style table}
-\label{fig:tablegenerator} 
-\end{figure}
-
-Use  \texttt{$\backslash$enquote} for double-quotes. \enquote{This is a sample quote.}
-
-Also can try to refer to this image in \autoref{fig:boundingboxexample}. Notice that the \texttt{.eps} and \texttt{.pdf} format vector graphs are favoured, because:
-
-\begin{enumerate}
-    \item they can be zoomed-in to check the detail.
-    \item text in such formats are search-able.
-\end{enumerate}
-
-
-\begin{figure}[ht]
-\centering
-\includegraphics[width=4in, fbox]{Figures/boundingbox.eps}
-\caption{Bounding-box example of cars.}
-\label{fig:boundingboxexample} 
-\end{figure}
-
-Try to insert a math equation as in \autoref{eq:euler}. If you wanna try the in-line mathematical, here is a sample $\alpha = \pi \cdot \frac{1}{\Theta}$.
-
-\begin{equation}
-\label{eq:euler}
-    e^{ix}= \cos{x} + i \sin{x}
-\end{equation}
-
-%Also here is a sample for footnote and hyperlink url\footnote{\url{https://github.com/doem97}}. 
-
-When mention some file formats can use \texttt{music.mp3}, \texttt{latex.pdf}, etc.
-
-
-
-
-\section{Sub-chapter Two}
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of 
-\todo{This is a todo note which appears in the margin}
-classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \enquote{Lorem ipsum dolor sit amet}.., comes from a line in section 1.10.32.
-
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-\section{Sub-chapter Three}
-\todo[inline]{This todo note appears in line with the text. Todo notes are a great tool to leave comments or notes for self and can then be simply commented out.}
-Vivamus eget odio tellus. Nam libero augue, eleifend molestie est eu, tempus vehicula magna. Sed dignissim imperdiet urna, non viverra risus blandit in. In lacinia aliquet leo, ut interdum ipsum ornare sed. Praesent ac fringilla justo. Vivamus pharetra non ipsum eget semper. In hac habitasse platea dictumst. Donec neque lectus, ultricies id massa posuere, sodales interdum ante. Sed et nunc vitae urna ornare porttitor nec vitae urna. Curabitur sit amet luctus urna. Nulla porta malesuada rutrum. Pellentesque vitae velit sed odio tincidunt iaculis. Nulla facilisi.
-
-\newpage
-
-\section{Sub-chapter Four}
-
-To create a bulleted list you need to make use of the ''itemize" environment. A \LaTeX environment is a special section within a page where items as placed. An environment always has a ``\textbackslash{begin}" and a ``\textbackslash{end}". Items you can place in such an environment include:
+\section{Research Questions}
+To assess the effectiveness and practical feasibility of the proposed hybrid architecture, this study systematically investigates the following primary research questions:
 \begin{itemize}
-    \item enumerate -- used to create numbered/letter lists
-    \item itemize -- creates a bullet list
-    \item figures -- to add images or figures (.eps is the recommended format
-    \item tables -- you can create them in tablesgenerator.com then copy the \LaTeX\\code and paste it.
-    \item equations -- for those really neat looking mathematical formulae
-    \item this list is not exhaustive...
+    \item \textbf{RQ1:} Is it possible to effectively detect traffic abnormalities, such as collisions or abrupt stops, using a hybrid vision-based architecture that integrates YOLO vehicle monitoring with 3D metric speed estimation and dense optical flow?
+    \item \textbf{RQ2:} What are the primary computational and environmental challenges of applying computer vision to kinematic speed-based anomaly identification across varied lighting and weather conditions?
 \end{itemize}
 
-\newpage
-\section{Sub-chapter Five}
-The following are some of the most common commands used during your writing. Some characters are reserved and cannot be directly written as in a normal word processor but need to be ``escaped". Then there are other useful commands such as adding a footnote, inserting a new line (to begin a new paragraph after a blank line, adding labels to items for cross-referencing, etc.
-
-\begin{itemize}
-    \item The following are special characters which require a \textbackslash{} before each character so the character is reproduced on the output. The tilde and exponent are even more special. 
-    \begin{itemize}
-        \item \textbackslash{\#}
-        \item \textbackslash{\$}
-        \item \textbackslash{\%} -- comment
-        \item \textbackslash{\&}
-        \item \textbackslash{\_}
-        \item \textasciitilde -- type \textbackslash{textasciitilde}
-        \item \textasciicircum -- type \textbackslash{textasciicircum}
-    \end{itemize}
-    \item \textbackslash{textbf} -- bold font
-    \item \textbackslash{textit} -- italics
-    \item \textbackslash{underline\{words to underline\}}
-    \item \textbackslash{emph} -- emphasized text. If used within an italicized text, the output is normal font. If used by itself, text in its argument is italicized.
-\end{itemize}
-An example highlighting the use of \textbackslash{emph}.
-\begin{itemize}
-    \item An example of emphasized text with \emph{these words emphasized} within normal font.
-    \item \textit{This is an example where \emph{these three words} are emphasized within italicized font}
-\end{itemize}
+\section{Structure of the Thesis}
+The remainder of this thesis is organised as follows. Chapter 2 offers a comprehensive Literature Review, examining the development of object detection, multi-object tracking, speed estimation, and spatiotemporal optical flow analysis within the context of Intelligent Transportation Systems (ITS). Chapter 3 details the Methodology, describing the software architecture, data engineering pipelines, mathematical transformations, and the dual-threaded integration of the hybrid system. Chapter 4 presents the Analysis, Results, and Discussion, wherein the framework is assessed using quantitative classification metrics as well as qualitative real-world constraints. Finally, Chapter 5 concludes the study by summarising the key contributions to knowledge, acknowledging the inherent limitations of the system, and providing strategic recommendations for future development.
 
 \end{spacing}
 %=== END OF CHAPTER ONE ===

@@ -2,18 +2,33 @@
 %=== Discussion ===
 
 \chapter{Conclusions and Recommendations}
+\label{ch:conclusion}
 \begin{spacing}{2.0}
-%\setlength{\parskip}{0.2in}
 
-\section{One}
+\section{Summary of the Research}
+The exponential expansion of urban infrastructure necessitates the development of resilient Intelligent Transport Systems (ITS) capable of mitigating the risks associated with traffic congestion and road accidents. Traditional computer vision methodologies have historically encountered difficulties in balancing the requirement for highly accurate, spatiotemporal anomaly detection with the stringent latency constraints inherent to real-time edge computing. To address this paradigm, this research has proposed, engineered, and evaluated a novel hybrid vision-based framework. By structurally decoupling spatial vehicle tracking from kinetic anomaly classification, the system effectively synthesised the deterministic tracking capabilities of YOLO11 and BoT-SORT with the unstructured, spatiotemporal pattern recognition of a custom-trained ResNet-18 classifier. Furthermore, the integration of mathematical camera stabilisation, Inverse Perspective Mapping (IPM), Kalman filtering, and automated GDPR-compliant obfuscation has resulted in a comprehensive, real-world-ready prototype suitable for municipal traffic surveillance.
+\section{Summary of Key Findings}
+The empirical evaluation of the proposed architecture produced highly competitive results, effectively addressing the primary research questions established at the outset of this study. 
 
-In this chapter, the Student has to evaluate the significance of the work done and give recommendations for any further investigations. Percentage amount of words in section: 20 \% of Dissertation.
+In response to the initial research inquiry concerning the feasibility and efficacy of a hybrid tracking and optical flow architecture, the system exhibited exceptional reliability. Evaluated using a balanced dataset comprising 8,353 validation frames from the CADP and TAD benchmarks, the ResNet-18 classifier attained an impressive overall accuracy of 96.61%. The implementation of a Focal Loss function effectively addressed class imbalance, yielding an identical F1-score of 0.966 for both standard traffic conditions and severe accident scenarios. Additionally, the utilisation of an asynchronous, dual-threaded producer-consumer architecture entirely circumvented conventional processing bottlenecks, maintaining a real-time throughput of 60 FPS on standard consumer-grade hardware. Achieving a TTA verification latency of merely 220 milliseconds further affirms the system’s viability as a highly responsive early-warning mechanism.
 
-\section{Two}
+In addressing the second research question concerning the computational and environmental challenges associated with vision-based detection, the qualitative evaluation underscored the significant advantages of the hybrid fail-safe architecture. Reliance solely on spatial tracking was demonstrated to be inherently fragile; in scenarios involving heavy precipitation or bridge shadows, the YOLO11 bounding boxes intermittently failed. However, as the system concurrently mapped dense kinetic energy using the Farnebäck algorithm, the raw pixel displacement resulting from collisions was consistently detected. This approach ensured that the ResNet-18 model correctly issued anomaly alerts even when the spatial tracker was entirely obscured, thereby demonstrating that a multi-modal visual strategy offers markedly greater resilience to environmental degradation compared to individual detection methods.
 
-\section{Three}
+\section{Contributions to Knowledge}
+This study makes several notable contributions to the field of automated traffic surveillance. Firstly, it validates a computationally efficient alternative to parameter-intensive Transformer architectures. By translating dense optical flow into HSV tensors and processing them through a modified ResNet-18 convolutional neural network, the framework attains the complex spatiotemporal awareness traditionally associated with substantially larger models, whilst operating within a computational capacity appropriate for deployment on edge devices.
 
+Secondly, the programmatic integration of automated Gaussian obfuscation establishes a privacy-by-design benchmark that is frequently overlooked in academic Intelligent Tutoring System (ITS) research. By erasing Personally Identifiable Information (PII) at the bounding box generation stage, the system guarantees strict adherence to GDPR mandates without compromising the integrity of kinematic tracking.
 
+\section{Research Limitations}
+Despite the robust quantitative metrics recorded, the current iteration of the framework possesses inherent limitations. The derivation of three-dimensional metric speed relies heavily on IPM, which presumes a flat road plane (Z=0). Furthermore, the calculation of the homography matrix necessitates the manual measurement and hard coding of static reference points, such as lane markings. Consequently, the system cannot be deployed dynamically across shifting pan-tilt-zoom cameras without undergoing manual re-calibration. Additionally, while the system maintained a throughput of 60 frames per second, the evaluation was conducted on pre-recorded, offline video files. Transmitting and processing high-definition RTSP streams from live IP cameras over municipal networks may introduce uncontrollable network latency, which was not accounted for during this benchmarking phase.
+
+\section{Recommendations for Future Work}
+To develop this prototype into a fully autonomous, municipally scaled deployment, several avenues for future research are advised. Primarily, the manual calibration of the IPM must be replaced by dynamic auto-calibration algorithms. Utilizing deep learning techniques to automatically detect vanishing points and lane dimensions would allow the framework to autonomously adjust its metric scaling, thereby enabling swift, plug-and-play implementation across a variety of CCTV networks.
+
+Furthermore, the integration of multi-modal sensor fusion specifically the combination of optical feeds with roadside LiDAR or acoustic crash-detection sensors, would significantly improve the system's performance under zero-visibility conditions, where even dense optical flow methods are ineffective. Finally, as discussed in the literature review, the progression towards incorporating Vision-Language Models into the terminal alert logic presents a highly promising avenue. Rather than generating a simple binary "Accident Detected" indicator, a VLM could semantically analyse the hybrid data streams to produce a descriptive, natural language narrative for emergency responders, thereby substantially reducing the cognitive burden on human operators and expediting the management of critical incidents.
+
+\section{Final Remarks}
+The imperative for automated and highly dependable traffic monitoring will increasingly become prominent as urban populations continue to expand. This research illustrates that the integration of advanced spatial tracking with dense kinetic mapping presents a highly robust, privacy-conscious, and computationally feasible solution. By bridging the divide between theoretical deep learning models and practical edge-computing deployment, this hybrid framework offers a foundational advancement towards the realisation of safer, more intelligent, and more responsive transportation networks.
 %=== END OF CHAPTER FIVE ===
 \end{spacing}
 \newpage

@@ -1,18 +1,15 @@
 \vspace {0.05in}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Create a Booktabs style table}}{2}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Bounding-box example of cars.}}{3}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Machine Learning.}}{9}{figure.caption.16}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces System architecture pipeline demonstrating the asynchronous multi-threaded integration of spatial tracking (YOLO11) and kinetic anomaly classification (ResNet-18). The top branch executes spatial extraction while the bottom branch processes optical flow in parallel.}}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces System architecture pipeline demonstrating the asynchronous multi-threaded integration of spatial tracking (YOLO11) and kinetic anomaly classification (ResNet-18). The top branch executes spatial extraction while the bottom branch processes optical flow in parallel.}}{21}{figure.caption.11}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces F1 confidence curve demonstrating the harmonic mean of precision and recall across varying confidence thresholds for anomaly classification.}}{30}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Confusion matrix detailing the absolute distribution of true and false classifications across 'Normal' and 'Accident' validation frames.}}{31}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Receiver Operating Characteristic (ROC) curve demonstrating the trade-off between the True Positive Rate and False Positive Rate across varying classification thresholds.}}{31}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Qualitative evaluation dashboard displaying normal traffic flow, featuring YOLO11 spatial bounding boxes, BoT-SORT unique identifiers, and stable kinematic speed estimations.}}{36}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Qualitative validation of the hybrid framework's fail-safe mechanism, demonstrating the 'ACCIDENT DETECTED' alert triggered by the Farnebäck optical flow heatmap despite spatial tracker occlusion.}}{37}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Visual representation of perspective distortion in 2D camera feeds and the subsequent spatial normalisation achieved via Inverse Perspective Mapping (IPM).}}{40}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces F1 confidence curve demonstrating the harmonic mean of precision and recall across varying confidence thresholds for anomaly classification.}}{38}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Confusion matrix detailing the absolute distribution of true and false classifications across 'Normal' and 'Accident' validation frames.}}{39}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Receiver Operating Characteristic (ROC) curve demonstrating the trade-off between the True Positive Rate and False Positive Rate across varying classification thresholds.}}{39}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Qualitative evaluation dashboard displaying normal traffic flow, featuring YOLO11 spatial bounding boxes, BoT-SORT unique identifiers, and stable kinematic speed estimations.}}{44}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Qualitative validation of the hybrid framework's fail-safe mechanism, demonstrating the 'ACCIDENT DETECTED' alert triggered by the Farnebäck optical flow heatmap despite spatial tracker occlusion.}}{45}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Visual representation of perspective distortion in 2D camera feeds and the subsequent spatial normalisation achieved via Inverse Perspective Mapping (IPM).}}{48}{figure.caption.22}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

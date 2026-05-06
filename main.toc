@@ -7,43 +7,54 @@
 \contentsline {chapter}{List of Tables}{viii}{chapter*.8}%
 \contentsline {chapter}{List of Abbreviations}{ix}{chapter*.9}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Sub-chapter One}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Sub-chapter Two}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Sub-chapter Three}{4}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Sub-chapter Four}{5}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Sub-chapter Five}{6}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Literature Review}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Overview}{8}{section.2.1}%
-\contentsline {section}{\numberline {2.2}One}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Two}{9}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Three}{10}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Four}{11}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Five}{11}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {3}Research Methodology}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction to the Methodology}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Data Engineering, Harmonisation, and Mathematical Balancing}{14}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Data Acquisition and Mathematical Camera Stabilisation}{16}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Spatial Perception: YOLO11 and Implicit BoT-SORT Tracking}{17}{section.3.4}%
-\contentsline {section}{\numberline {3.5}GDPR Compliance via Gaussian Obfuscation}{18}{section.3.5}%
-\contentsline {section}{\numberline {3.6}3D Metric Reconstruction and Speed Estimation}{19}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Kinematic Trajectory Smoothing via Kalman Filtering}{21}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Spatiotemporal Kinetic Energy Mapping via Dense Optical Flow}{22}{section.3.8}%
-\contentsline {section}{\numberline {3.9}Deep Learning Anomaly Classification}{23}{section.3.9}%
-\contentsline {section}{\numberline {3.10}Asynchronous Dual-Threaded Architecture and System Integration}{25}{section.3.10}%
-\contentsline {section}{\numberline {3.11}Evaluation of Results}{26}{section.3.11}%
-\contentsline {chapter}{\numberline {4}Analysis, Results and Discussion}{28}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Quantitative Evaluation: Anomaly Classification}{28}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Comparison to the Literature}{32}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Predictive Capability: Time-to-Accident (TTA)}{33}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Hardware Optimisation and System Throughput}{34}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Qualitative Evaluation: The Power of Hybrid Architecture}{35}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Overcoming the Limitations of Off-the-Shelf Trackers}{37}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Addressing the Research Questions}{38}{section.4.8}%
-\contentsline {chapter}{\numberline {5}Conclusions and Recommendations}{41}{chapter.5}%
-\contentsline {section}{\numberline {5.1}One}{41}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Two}{41}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Three}{41}{section.5.3}%
-\contentsline {chapter}{List of References}{42}{chapter*.29}%
-\contentsline {chapter}{Appendix \numberline {A}Introduction of Appendix}{43}{appendix.1.A}%
-\contentsline {chapter}{Appendix \numberline {B}Sample Code}{44}{appendix.1.B}%
+\contentsline {section}{\numberline {1.1}Background and Context}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}The Proposed Hybrid Architecture}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Aims and Objectives}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Research Questions}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Structure of the Thesis}{5}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Literature Review}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction to Intelligent Transport Systems (ITS)}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Evolution of Object Detection Architectures}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Advancements in Multi-Object Tracking}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Vision-Based Vehicle Speed Estimation}{9}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Lane-Specific Analysis and Behaviour Monitoring}{10}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Traffic Anomaly Detection Frameworks}{11}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Spatiotemporal Analysis via Dense Optical Flow}{12}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Deep Learning Classification using ResNet Architectures}{14}{section.2.8}%
+\contentsline {section}{\numberline {2.9}Model Ensembling for Enhanced Reliability}{16}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Benchmark Datasets: The Role of CADP}{17}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Explainable AI and Edge Computing Integration}{18}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Multi-Modal Integration and Vision-Language Models}{19}{section.2.12}%
+\contentsline {section}{\numberline {2.13}Conclusion}{20}{section.2.13}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction to the Methodology}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Data Engineering, Harmonisation, and Mathematical Balancing}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Data Acquisition and Mathematical Camera Stabilisation}{24}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Spatial Perception: YOLO11 and Implicit BoT-SORT Tracking}{25}{section.3.4}%
+\contentsline {section}{\numberline {3.5}GDPR Compliance via Gaussian Obfuscation}{26}{section.3.5}%
+\contentsline {section}{\numberline {3.6}3D Metric Reconstruction and Speed Estimation}{27}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Kinematic Trajectory Smoothing via Kalman Filtering}{29}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Spatiotemporal Kinetic Energy Mapping via Dense Optical Flow}{30}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Deep Learning Anomaly Classification}{31}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Asynchronous Dual-Threaded Architecture and System Integration}{33}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Evaluation of Results}{34}{section.3.11}%
+\contentsline {chapter}{\numberline {4}Analysis, Results and Discussion}{36}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{36}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Quantitative Evaluation: Anomaly Classification}{36}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Comparison to the Literature}{40}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Predictive Capability: Time-to-Accident (TTA)}{41}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Hardware Optimisation and System Throughput}{42}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Qualitative Evaluation: The Power of Hybrid Architecture}{43}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Overcoming the Limitations of Off-the-Shelf Trackers}{45}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Addressing the Research Questions}{46}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Conclusions and Recommendations}{49}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary of the Research}{49}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Summary of Key Findings}{49}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Contributions to Knowledge}{50}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Research Limitations}{51}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Recommendations for Future Work}{52}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Final Remarks}{53}{section.5.6}%
+\contentsline {chapter}{List of References}{54}{chapter*.23}%
+\contentsline {chapter}{Appendix \numberline {A}Introduction of Appendix}{60}{appendix.1.A}%
+\contentsline {chapter}{Appendix \numberline {B}Sample Code}{61}{appendix.1.B}%
