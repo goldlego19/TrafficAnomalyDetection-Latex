@@ -1,30 +1,34 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Research Methodology}{21}{chapter.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Research Methodology}{25}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:methodology}{{3}{21}{Research Methodology}{chapter.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Introduction to the Methodology}{21}{section.3.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces System architecture pipeline demonstrating the asynchronous multi-threaded integration of spatial tracking (YOLO11) and kinetic anomaly classification (ResNet-18). The top branch executes spatial extraction while the bottom branch processes optical flow in parallel.}}{21}{figure.caption.11}\protected@file@percent }
-\newlabel{fig:pipeline_diagram}{{3.1}{21}{System architecture pipeline demonstrating the asynchronous multi-threaded integration of spatial tracking (YOLO11) and kinetic anomaly classification (ResNet-18). The top branch executes spatial extraction while the bottom branch processes optical flow in parallel}{figure.caption.11}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Data Engineering, Harmonisation, and Mathematical Balancing}{22}{section.3.2}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of Database Constituents and Sources}}{24}{table.caption.12}\protected@file@percent }
-\newlabel{tab:database_sources}{{3.1}{24}{Summary of Database Constituents and Sources}{table.caption.12}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Data Acquisition and Mathematical Camera Stabilisation}{24}{section.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Spatial Perception: YOLO11 and Implicit BoT-SORT Tracking}{25}{section.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}GDPR Compliance via Gaussian Obfuscation}{26}{section.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.6}3D Metric Reconstruction and Speed Estimation}{27}{section.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.7}Kinematic Trajectory Smoothing via Kalman Filtering}{29}{section.3.7}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Kinematic Trajectory \& Kalman Filter Variables}}{30}{table.caption.13}\protected@file@percent }
-\newlabel{tab:kalman_variables}{{3.2}{30}{Kinematic Trajectory \& Kalman Filter Variables}{table.caption.13}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.8}Spatiotemporal Kinetic Energy Mapping via Dense Optical Flow}{30}{section.3.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.9}Deep Learning Anomaly Classification}{31}{section.3.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.10}Asynchronous Dual-Threaded Architecture and System Integration}{33}{section.3.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.11}Evaluation of Results}{34}{section.3.11}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces Summary of Evaluation Metrics and KPIs}}{35}{table.caption.14}\protected@file@percent }
-\newlabel{tab:evaluation_metrics}{{3.3}{35}{Summary of Evaluation Metrics and KPIs}{table.caption.14}{}}
+\newlabel{ch:methodology}{{3}{25}{Research Methodology}{chapter.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Introduction to the Methodology}{25}{section.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces A high-level pipeline diagram illustrating the purely spatiotemporal architecture.}}{26}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:simple_pipeline}{{3.1}{26}{A high-level pipeline diagram illustrating the purely spatiotemporal architecture}{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Data Engineering, Harmonisation, and Mathematical Balancing}{26}{section.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of Database Constituents and Sources}}{27}{table.caption.15}\protected@file@percent }
+\newlabel{tab:database_sources}{{3.1}{27}{Summary of Database Constituents and Sources}{table.caption.15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Handling Dataset Imbalance via Dataset Merging}{28}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Mathematical Formulation of Dense Optical Flow}{29}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Spatiotemporal Kinetic Energy Mapping via Dense Optical Flow}{31}{section.3.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces A progressive visual of the tensor creation process. Left: Raw RGB frame. Centre: Grayscale conversion. Right: The resulting HSV Heatmap representing kinetic energy, demonstrating the effectiveness of the strict noise floor threshold in blacking out static background.}}{32}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:tensor_creation}{{3.2}{32}{A progressive visual of the tensor creation process. Left: Raw RGB frame. Centre: Grayscale conversion. Right: The resulting HSV Heatmap representing kinetic energy, demonstrating the effectiveness of the strict noise floor threshold in blacking out static background}{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Customisation of the ResNet-18 Architecture}{32}{section.3.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Diagram of the modified ResNet-18 head, illustrating the frozen convolutional layers passing features into the custom sequential block (256-node Linear $\rightarrow $ ReLU $\rightarrow $ Dropout (0.5) $\rightarrow $ Sigmoid) to generate a binary output.}}{34}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:resnet_head}{{3.3}{34}{Diagram of the modified ResNet-18 head, illustrating the frozen convolutional layers passing features into the custom sequential block (256-node Linear $\rightarrow $ ReLU $\rightarrow $ Dropout (0.5) $\rightarrow $ Sigmoid) to generate a binary output}{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.7}Deep Learning Anomaly Classification}{35}{section.3.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.8}Inference Pipeline and User Interface}{36}{section.3.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces High-level system architecture detailing the multi-threaded deployment. The main thread manages frame ingestion and Farnebäck optical flow computations, securely transmitting tensors via a thread-safe \texttt  {inference\_queue} to the asynchronous \texttt  {ai\_worker} thread running the ResNet-18 inference, successfully circumventing the Global Interpreter Lock (GIL).}}{38}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:system_architecture}{{3.4}{38}{High-level system architecture detailing the multi-threaded deployment. The main thread manages frame ingestion and Farnebäck optical flow computations, securely transmitting tensors via a thread-safe \texttt {inference\_queue} to the asynchronous \texttt {ai\_worker} thread running the ResNet-18 inference, successfully circumventing the Global Interpreter Lock (GIL)}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces The real-time Inference User Interface (UI). Panel (a) demonstrates standard operational monitoring with a baseline probability score. Panel (b) illustrates the dynamic red warning overlay triggered when the ResNet-18 confidence metric exceeds the strict safety threshold during a collision.}}{38}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:ui_dashboard}{{3.5}{38}{The real-time Inference User Interface (UI). Panel (a) demonstrates standard operational monitoring with a baseline probability score. Panel (b) illustrates the dynamic red warning overlay triggered when the ResNet-18 confidence metric exceeds the strict safety threshold during a collision}{figure.caption.19}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.9}Evaluation Metrics}{38}{section.3.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Evaluation Metrics for the Spatiotemporal Architecture}}{40}{table.caption.20}\protected@file@percent }
+\newlabel{tab:evaluation_metrics}{{3.2}{40}{Evaluation Metrics for the Spatiotemporal Architecture}{table.caption.20}{}}
 \@setckpt{Sections/03_Methodology}{
-\setcounter{page}{36}
+\setcounter{page}{41}
 \setcounter{equation}{0}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
@@ -34,13 +38,13 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{3}
-\setcounter{section}{11}
+\setcounter{section}{9}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{1}
-\setcounter{table}{3}
+\setcounter{figure}{5}
+\setcounter{table}{2}
 \setcounter{parentequation}{0}
 \setcounter{lstnumber}{1}
 \setcounter{@pps}{0}
@@ -57,6 +61,6 @@
 \setcounter{section@level}{0}
 \setcounter{Item}{0}
 \setcounter{Hfootnote}{0}
-\setcounter{bookmark@seq@number}{40}
+\setcounter{bookmark@seq@number}{38}
 \setcounter{lstlisting}{0}
 }

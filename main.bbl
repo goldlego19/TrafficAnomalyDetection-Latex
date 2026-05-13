@@ -30,31 +30,127 @@ S.~Robles-Serrano, G.~Sanchez-Torres, and J.~Branch-Bedoya,
   2021. [Online]. Available: \url{https://www.mdpi.com/2073-431X/10/11/148}
 \BIBentrySTDinterwordspacing
 
-\bibitem{zhang_research_2024}
+\bibitem{aboah_vision-based_2021}
 \BIBentryALTinterwordspacing
-X.~Zhang, H.~Huang, J.~Yang, and S.~Jiang, ``\BIBforeignlanguage{en}{Research
-  on {Deep} {Learning}-{Based} {Vehicle} and {Pedestrian} {Object} {Detection}
-  {Algorithms}},'' \emph{\BIBforeignlanguage{en}{The International Archives of
-  the Photogrammetry, Remote Sensing and Spatial Information Sciences}}, vol.
-  XLVIII-4/W10-2024, pp. 213--220, May 2024. [Online]. Available:
-  \url{https://isprs-archives.copernicus.org/articles/XLVIII-4-W10-2024/213/2024/}
+A.~Aboah, M.~Shoman, V.~Mandal, S.~Davami, Y.~Adu-Gyamfi, and A.~Sharma, ``A
+  {Vision}-based {System} for {Traffic} {Anomaly} {Detection} using {Deep}
+  {Learning} and {Decision} {Trees},'' 2021, version Number: 1. [Online].
+  Available: \url{https://arxiv.org/abs/2104.06856}
 \BIBentrySTDinterwordspacing
 
-\bibitem{hussain_yolo-v1_2023}
+\bibitem{huang_intelligent_2019}
 \BIBentryALTinterwordspacing
-M.~Hussain, ``\BIBforeignlanguage{en}{{YOLO}-v1 to {YOLO}-v8, the {Rise} of
-  {YOLO} and {Its} {Complementary} {Nature} toward {Digital} {Manufacturing}
-  and {Industrial} {Defect} {Detection}},''
-  \emph{\BIBforeignlanguage{en}{Machines}}, vol.~11, no.~7, p. 677, Jun. 2023.
-  [Online]. Available: \url{https://www.mdpi.com/2075-1702/11/7/677}
+X.~Huang, P.~He, A.~Rangarajan, and S.~Ranka, ``Intelligent {Intersection}:
+  {Two}-{Stream} {Convolutional} {Networks} for {Real}-time {Near} {Accident}
+  {Detection} in {Traffic} {Video},'' 2019, version Number: 1. [Online].
+  Available: \url{https://arxiv.org/abs/1901.01138}
 \BIBentrySTDinterwordspacing
 
-\bibitem{li_deep_2025}
+\bibitem{hasan_learning_2016}
 \BIBentryALTinterwordspacing
-W.~Li, L.~Huang, and X.~Lai, ``\BIBforeignlanguage{en}{A {Deep} {Learning}
-  {Framework} for {Traffic} {Accident} {Detection} {Based} on {Improved}
-  {YOLO11}},'' \emph{\BIBforeignlanguage{en}{Vehicles}}, vol.~7, no.~3, p.~81,
-  Aug. 2025. [Online]. Available: \url{https://www.mdpi.com/2624-8921/7/3/81}
+M.~Hasan, J.~Choi, J.~Neumann, A.~K. Roy-Chowdhury, and L.~S. Davis, ``Learning
+  {Temporal} {Regularity} in {Video} {Sequences},'' in \emph{2016 {IEEE}
+  {Conference} on {Computer} {Vision} and {Pattern} {Recognition}
+  ({CVPR})}.\hskip 1em plus 0.5em minus 0.4em\relax Las Vegas, NV, USA: IEEE,
+  Jun. 2016, pp. 733--742. [Online]. Available:
+  \url{http://ieeexplore.ieee.org/document/7780455/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{gong_memorizing_2019}
+\BIBentryALTinterwordspacing
+D.~Gong, L.~Liu, V.~Le, B.~Saha, M.~R. Mansour, S.~Venkatesh, and A.~Van
+  Den~Hengel, ``Memorizing {Normality} to {Detect} {Anomaly}:
+  {Memory}-{Augmented} {Deep} {Autoencoder} for {Unsupervised} {Anomaly}
+  {Detection},'' in \emph{2019 {IEEE}/{CVF} {International} {Conference} on
+  {Computer} {Vision} ({ICCV})}.\hskip 1em plus 0.5em minus 0.4em\relax Seoul,
+  Korea (South): IEEE, Oct. 2019, pp. 1705--1714. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/9010977/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{liu_future_2018}
+\BIBentryALTinterwordspacing
+W.~Liu, W.~Luo, D.~Lian, and S.~Gao, ``Future {Frame} {Prediction} for
+  {Anomaly} {Detection} - {A} {New} {Baseline},'' in \emph{2018 {IEEE}/{CVF}
+  {Conference} on {Computer} {Vision} and {Pattern} {Recognition}}.\hskip 1em
+  plus 0.5em minus 0.4em\relax Salt Lake City, UT: IEEE, Jun. 2018, pp.
+  6536--6545. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/8578782/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{sultani_real-world_2018}
+\BIBentryALTinterwordspacing
+W.~Sultani, C.~Chen, and M.~Shah, ``Real-{World} {Anomaly} {Detection} in
+  {Surveillance} {Videos},'' in \emph{2018 {IEEE}/{CVF} {Conference} on
+  {Computer} {Vision} and {Pattern} {Recognition}}.\hskip 1em plus 0.5em minus
+  0.4em\relax Salt Lake City, UT: IEEE, Jun. 2018, pp. 6479--6488. [Online].
+  Available: \url{https://ieeexplore.ieee.org/document/8578776/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{simonyan_two-stream_2014}
+\BIBentryALTinterwordspacing
+K.~Simonyan and A.~Zisserman, ``Two-{Stream} {Convolutional} {Networks} for
+  {Action} {Recognition} in {Videos},'' 2014, version Number: 2. [Online].
+  Available: \url{https://arxiv.org/abs/1406.2199}
+\BIBentrySTDinterwordspacing
+
+\bibitem{goos_two-frame_2003}
+\BIBentryALTinterwordspacing
+G.~Farnebäck, ``Two-{Frame} {Motion} {Estimation} {Based} on {Polynomial}
+  {Expansion},'' in \emph{Image {Analysis}}, G.~Goos, J.~Hartmanis,
+  J.~Van~Leeuwen, J.~Bigun, and T.~Gustavsson, Eds.\hskip 1em plus 0.5em minus
+  0.4em\relax Berlin, Heidelberg: Springer Berlin Heidelberg, 2003, vol. 2749,
+  pp. 363--370, series Title: Lecture Notes in Computer Science. [Online].
+  Available: \url{http://link.springer.com/10.1007/3-540-45103-X_50}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nawaratne_spatiotemporal_2020}
+\BIBentryALTinterwordspacing
+R.~Nawaratne, D.~Alahakoon, D.~De~Silva, and X.~Yu, ``Spatiotemporal {Anomaly}
+  {Detection} {Using} {Deep} {Learning} for {Real}-{Time} {Video}
+  {Surveillance},'' \emph{IEEE Transactions on Industrial Informatics},
+  vol.~16, no.~1, pp. 393--402, Jan. 2020. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/8820090/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{singh_surveillance_2025}
+\BIBentryALTinterwordspacing
+T.~Singh, P.~Chakraborty, and L.~T. Truong, ``Surveillance {Video}-{Based}
+  {Traffic} {Accident} {Detection} {Using} {Transformer} {Architecture},''
+  2025, version Number: 1. [Online]. Available:
+  \url{https://arxiv.org/abs/2512.11350}
+\BIBentrySTDinterwordspacing
+
+\bibitem{he_deep_2016}
+\BIBentryALTinterwordspacing
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep {Residual} {Learning} for {Image}
+  {Recognition},'' in \emph{2016 {IEEE} {Conference} on {Computer} {Vision} and
+  {Pattern} {Recognition} ({CVPR})}.\hskip 1em plus 0.5em minus 0.4em\relax Las
+  Vegas, NV, USA: IEEE, Jun. 2016, pp. 770--778. [Online]. Available:
+  \url{http://ieeexplore.ieee.org/document/7780459/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{krizhevsky_imagenet_2017}
+\BIBentryALTinterwordspacing
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton,
+  ``\BIBforeignlanguage{en}{{ImageNet} classification with deep convolutional
+  neural networks},'' \emph{\BIBforeignlanguage{en}{Communications of the
+  ACM}}, vol.~60, no.~6, pp. 84--90, May 2017. [Online]. Available:
+  \url{https://dl.acm.org/doi/10.1145/3065386}
+\BIBentrySTDinterwordspacing
+
+\bibitem{targ_resnet_2016}
+\BIBentryALTinterwordspacing
+S.~Targ, D.~Almeida, and K.~Lyman, ``Resnet in {Resnet}: {Generalizing}
+  {Residual} {Architectures},'' 2016, version Number: 1. [Online]. Available:
+  \url{https://arxiv.org/abs/1603.08029}
+\BIBentrySTDinterwordspacing
+
+\bibitem{han_deep_2015}
+\BIBentryALTinterwordspacing
+S.~Han, H.~Mao, and W.~J. Dally, ``Deep {Compression}: {Compressing} {Deep}
+  {Neural} {Networks} with {Pruning}, {Trained} {Quantization} and {Huffman}
+  {Coding},'' 2015, version Number: 5. [Online]. Available:
+  \url{https://arxiv.org/abs/1510.00149}
 \BIBentrySTDinterwordspacing
 
 \bibitem{basheer_ahmed_real-time_2023}
@@ -68,135 +164,12 @@ M.~I. Basheer~Ahmed, R.~Zaghdoud, M.~S. Ahmed, R.~Sendi, S.~Alsharif,
   \url{https://www.mdpi.com/2504-2289/7/1/22}
 \BIBentrySTDinterwordspacing
 
-\bibitem{aharon_bot-sort_2022}
+\bibitem{shah_cadp_2018}
 \BIBentryALTinterwordspacing
-N.~Aharon, R.~Orfaig, and B.-Z. Bobrovsky, ``{BoT}-{SORT}: {Robust}
-  {Associations} {Multi}-{Pedestrian} {Tracking},'' Jul. 2022, arXiv:2206.14651
-  [cs]. [Online]. Available: \url{http://arxiv.org/abs/2206.14651}
-\BIBentrySTDinterwordspacing
-
-\bibitem{kalman_new_1960}
-\BIBentryALTinterwordspacing
-R.~E. Kalman, ``\BIBforeignlanguage{en}{A {New} {Approach} to {Linear}
-  {Filtering} and {Prediction} {Problems}},''
-  \emph{\BIBforeignlanguage{en}{Journal of Basic Engineering}}, vol.~82, no.~1,
-  pp. 35--45, Mar. 1960. [Online]. Available:
-  \url{https://asmedigitalcollection.asme.org/fluidsengineering/article/82/1/35/397706/A-New-Approach-to-Linear-Filtering-and-Prediction}
-\BIBentrySTDinterwordspacing
-
-\bibitem{kuhn_hungarian_1955}
-\BIBentryALTinterwordspacing
-H.~W. Kuhn, ``\BIBforeignlanguage{en}{The {Hungarian} method for the assignment
-  problem},'' \emph{\BIBforeignlanguage{en}{Naval Research Logistics
-  Quarterly}}, vol.~2, no. 1-2, pp. 83--97, Mar. 1955. [Online]. Available:
-  \url{https://onlinelibrary.wiley.com/doi/10.1002/nav.3800020109}
-\BIBentrySTDinterwordspacing
-
-\bibitem{arriffin_vehicles_2023}
-\BIBentryALTinterwordspacing
-M.~N. Arriffin, S.~A. Mostafa, U.~F. Khattak, M.~M. Jaber, Z.~Baharum, Defni,
-  and T.~Gusman, ``Vehicles {Speed} {Estimation} {Model} from {Video} {Streams}
-  for {Automatic} {Traffic} {Flow} {Analysis} {Systems},'' \emph{JOIV :
-  International Journal on Informatics Visualization}, vol.~7, no.~2, p. 295,
-  May 2023. [Online]. Available:
-  \url{http://joiv.org/index.php/joiv/article/view/1820}
-\BIBentrySTDinterwordspacing
-
-\bibitem{dong_vehicle_2019}
-\BIBentryALTinterwordspacing
-H.~Dong, M.~Wen, and Z.~Yang, ``\BIBforeignlanguage{en}{Vehicle {Speed}
-  {Estimation} {Based} on {3D} {ConvNets} and {Non}-{Local} {Blocks}},''
-  \emph{\BIBforeignlanguage{en}{Future Internet}}, vol.~11, no.~6, p. 123, May
-  2019. [Online]. Available: \url{https://www.mdpi.com/1999-5903/11/6/123}
-\BIBentrySTDinterwordspacing
-
-\bibitem{hua_vehicle_2018}
-\BIBentryALTinterwordspacing
-S.~Hua, M.~Kapoor, and D.~C. Anastasiu, ``Vehicle {Tracking} and {Speed}
-  {Estimation} from {Traffic} {Videos},'' in \emph{2018 {IEEE}/{CVF}
-  {Conference} on {Computer} {Vision} and {Pattern} {Recognition} {Workshops}
-  ({CVPRW})}.\hskip 1em plus 0.5em minus 0.4em\relax Salt Lake City, UT, USA:
-  IEEE, Jun. 2018, pp. 153--1537. [Online]. Available:
-  \url{https://ieeexplore.ieee.org/document/8575446/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{macko_efficient_2025}
-\BIBentryALTinterwordspacing
-A.~Macko, L.~Gajdošech, and V.~Kocur, ``\BIBforeignlanguage{en}{Efficient
-  vision-based vehicle speed estimation},''
-  \emph{\BIBforeignlanguage{en}{Journal of Real-Time Image Processing}},
-  vol.~22, no.~3, p. 123, Jun. 2025. [Online]. Available:
-  \url{https://link.springer.com/10.1007/s11554-025-01704-z}
-\BIBentrySTDinterwordspacing
-
-\bibitem{hyungjun_vehicle_2019}
-\BIBentryALTinterwordspacing
-K.~HyungJun, ``Vehicle {Detection} and {Speed} {Estimation} for {Automated}
-  {Traffic} {Surveillance} {Systems} at {Nighttime},'' \emph{Tehnicki vjesnik -
-  Technical Gazette}, vol.~26, no.~1, Feb. 2019. [Online]. Available:
-  \url{https://hrcak.srce.hr/217091}
-\BIBentrySTDinterwordspacing
-
-\bibitem{zhou_comprehensive_2022}
-\BIBentryALTinterwordspacing
-Z.~Zhou, Z.~Yang, Y.~Zhang, Y.~Huang, H.~Chen, and Z.~Yu,
-  ``\BIBforeignlanguage{en}{A comprehensive study of speed prediction in
-  transportation system: {From} vehicle to traffic},''
-  \emph{\BIBforeignlanguage{en}{iScience}}, vol.~25, no.~3, p. 103909, Mar.
-  2022. [Online]. Available:
-  \url{https://linkinghub.elsevier.com/retrieve/pii/S2589004222001791}
-\BIBentrySTDinterwordspacing
-
-\bibitem{aboah_vision-based_2021}
-\BIBentryALTinterwordspacing
-A.~Aboah, M.~Shoman, V.~Mandal, S.~Davami, Y.~Adu-Gyamfi, and A.~Sharma, ``A
-  {Vision}-based {System} for {Traffic} {Anomaly} {Detection} using {Deep}
-  {Learning} and {Decision} {Trees},'' Apr. 2021, arXiv:2104.06856 [cs].
-  [Online]. Available: \url{http://arxiv.org/abs/2104.06856}
-\BIBentrySTDinterwordspacing
-
-\bibitem{huang_intelligent_2019}
-\BIBentryALTinterwordspacing
-X.~Huang, P.~He, A.~Rangarajan, and S.~Ranka, ``Intelligent {Intersection}:
-  {Two}-{Stream} {Convolutional} {Networks} for {Real}-time {Near} {Accident}
-  {Detection} in {Traffic} {Video},'' Jan. 2019, arXiv:1901.01138 [cs].
-  [Online]. Available: \url{http://arxiv.org/abs/1901.01138}
-\BIBentrySTDinterwordspacing
-
-\bibitem{singh_surveillance_2025}
-\BIBentryALTinterwordspacing
-T.~Singh, P.~Chakraborty, and L.~T. Truong, ``Surveillance {Video}-{Based}
-  {Traffic} {Accident} {Detection} {Using} {Transformer} {Architecture},''
-  2025, version Number: 1. [Online]. Available:
-  \url{https://arxiv.org/abs/2512.11350}
-\BIBentrySTDinterwordspacing
-
-\bibitem{goos_two-frame_2003}
-\BIBentryALTinterwordspacing
-G.~Farnebäck, ``Two-{Frame} {Motion} {Estimation} {Based} on {Polynomial}
-  {Expansion},'' in \emph{Image {Analysis}}, G.~Goos, J.~Hartmanis,
-  J.~Van~Leeuwen, J.~Bigun, and T.~Gustavsson, Eds.\hskip 1em plus 0.5em minus
-  0.4em\relax Berlin, Heidelberg: Springer Berlin Heidelberg, 2003, vol. 2749,
-  pp. 363--370, series Title: Lecture Notes in Computer Science. [Online].
-  Available: \url{http://link.springer.com/10.1007/3-540-45103-X_50}
-\BIBentrySTDinterwordspacing
-
-\bibitem{he_deep_2016}
-\BIBentryALTinterwordspacing
-K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep {Residual} {Learning} for {Image}
-  {Recognition},'' in \emph{2016 {IEEE} {Conference} on {Computer} {Vision} and
-  {Pattern} {Recognition} ({CVPR})}.\hskip 1em plus 0.5em minus 0.4em\relax Las
-  Vegas, NV, USA: IEEE, Jun. 2016, pp. 770--778. [Online]. Available:
-  \url{http://ieeexplore.ieee.org/document/7780459/}
-\BIBentrySTDinterwordspacing
-
-\bibitem{mahmood_new_2023}
-\BIBentryALTinterwordspacing
-F.~Mahmood, D.~Jeong, and J.~Ryu, ``A {New} {Approach} to {Traffic} {Accident}
-  {Anticipation} {With} {Geometric} {Features} for {Better}
-  {Generalizability},'' \emph{IEEE Access}, vol.~11, pp. 29\,263--29\,274,
-  2023. [Online]. Available:
-  \url{https://ieeexplore.ieee.org/document/10077604/}
+A.~Shah, J.~B. Lamare, T.~N. Anh, and A.~Hauptmann, ``{CADP}: {A} {Novel}
+  {Dataset} for {CCTV} {Traffic} {Camera} based {Accident} {Analysis},'' Nov.
+  2018, arXiv:1809.05782 [cs]. [Online]. Available:
+  \url{http://arxiv.org/abs/1809.05782}
 \BIBentrySTDinterwordspacing
 
 \bibitem{oluwadamilola_traffic_2026}
@@ -207,29 +180,38 @@ O.~Oluwadamilola and O.~Emmanuel, ``Traffic {Accident} {Severity}
   \url{https://www.e3s-conferences.org/10.1051/e3sconf/202668401002}
 \BIBentrySTDinterwordspacing
 
-\bibitem{shah_cadp_2018}
+\bibitem{lin_focal_2017}
 \BIBentryALTinterwordspacing
-A.~Shah, J.~B. Lamare, T.~N. Anh, and A.~Hauptmann, ``{CADP}: {A} {Novel}
-  {Dataset} for {CCTV} {Traffic} {Camera} based {Accident} {Analysis},'' Nov.
-  2018, arXiv:1809.05782 [cs]. [Online]. Available:
-  \url{http://arxiv.org/abs/1809.05782}
+T.-Y. Lin, P.~Goyal, R.~Girshick, K.~He, and P.~Dollár, ``Focal {Loss} for
+  {Dense} {Object} {Detection},'' 2017, version Number: 2. [Online]. Available:
+  \url{https://arxiv.org/abs/1708.02002}
 \BIBentrySTDinterwordspacing
 
-\bibitem{lin_focal_2020}
+\bibitem{buda_systematic_2018}
 \BIBentryALTinterwordspacing
-T.-Y. Lin, P.~Goyal, R.~Girshick, K.~He, and P.~Dollar, ``Focal {Loss} for
-  {Dense} {Object} {Detection},'' \emph{IEEE Transactions on Pattern Analysis
-  and Machine Intelligence}, vol.~42, no.~2, pp. 318--327, Feb. 2020. [Online].
-  Available: \url{https://ieeexplore.ieee.org/document/8417976/}
+M.~Buda, A.~Maki, and M.~A. Mazurowski, ``\BIBforeignlanguage{en}{A systematic
+  study of the class imbalance problem in convolutional neural networks},''
+  \emph{\BIBforeignlanguage{en}{Neural Networks}}, vol. 106, pp. 249--259, Oct.
+  2018. [Online]. Available:
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0893608018302107}
 \BIBentrySTDinterwordspacing
 
-\bibitem{natha_deep_2025}
+\bibitem{haibo_he_learning_2009}
 \BIBentryALTinterwordspacing
-S.~Natha, F.~Ahmed, M.~Siraj, M.~Lagari, M.~Altamimi, and A.~A. Chandio,
-  ``\BIBforeignlanguage{en}{Deep {BiLSTM} {Attention} {Model} for {Spatial} and
-  {Temporal} {Anomaly} {Detection} in {Video} {Surveillance}},''
-  \emph{\BIBforeignlanguage{en}{Sensors}}, vol.~25, no.~1, p. 251, Jan. 2025.
-  [Online]. Available: \url{https://www.mdpi.com/1424-8220/25/1/251}
+{Haibo He} and E.~Garcia, ``Learning from {Imbalanced} {Data},'' \emph{IEEE
+  Transactions on Knowledge and Data Engineering}, vol.~21, no.~9, pp.
+  1263--1284, Sep. 2009. [Online]. Available:
+  \url{http://ieeexplore.ieee.org/document/5128907/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{jokhio_scalable_2024}
+\BIBentryALTinterwordspacing
+F.~A. Jokhio, M.~Laghari, S.~Natha, M.~Siraj, S.~A. Alsaif, U.~Ashraf, and
+  A.~Ali, ``\BIBforeignlanguage{en}{A {Scalable} and {Generalized} {Deep}
+  {Ensemble} {Model} for {Road} {Anomaly} {Detection} in {Surveillance}
+  {Videos}},'' \emph{\BIBforeignlanguage{en}{Computers, Materials \&
+  Continua}}, vol.~81, no.~3, pp. 3707--3729, 2024. [Online]. Available:
+  \url{https://www.techscience.com/cmc/v81n3/59048}
 \BIBentrySTDinterwordspacing
 
 \bibitem{liu_hybrid_2025}
@@ -245,17 +227,16 @@ J.~Liu, W.~Liu, X.~Li, A.~Chen, P.~M. Schonfeld, and B.~Du, ``Hybrid {Ensemble}
 \bibitem{adewopo_smart_2023}
 \BIBentryALTinterwordspacing
 V.~Adewopo and N.~Elsayed, ``Smart {City} {Transportation}: {Deep} {Learning}
-  {Ensemble} {Approach} for {Traffic} {Accident} {Detection},'' Oct. 2023,
-  arXiv:2310.10038 [cs]. [Online]. Available:
-  \url{http://arxiv.org/abs/2310.10038}
+  {Ensemble} {Approach} for {Traffic} {Accident} {Detection},'' 2023, version
+  Number: 1. [Online]. Available: \url{https://arxiv.org/abs/2310.10038}
 \BIBentrySTDinterwordspacing
 
 \bibitem{orlova_simplifying_2025}
 \BIBentryALTinterwordspacing
 S.~Orlova, T.~Kerssies, B.~B. Englert, and G.~Dubbelman, ``Simplifying
-  {Traffic} {Anomaly} {Detection} with {Video} {Foundation} {Models},'' Sep.
-  2025, arXiv:2507.09338 [cs]. [Online]. Available:
-  \url{http://arxiv.org/abs/2507.09338}
+  {Traffic} {Anomaly} {Detection} with {Video} {Foundation} {Models},'' 2025,
+  version Number: 2. [Online]. Available:
+  \url{https://arxiv.org/abs/2507.09338}
 \BIBentrySTDinterwordspacing
 
 \bibitem{pandey_explainable_2026}
@@ -277,6 +258,15 @@ M.~Memon, S.~Narejo, S.~Talpur, A.~Channa, F.~A. Mangi, and J.~K. Pandey,
   {CITIES},'' \emph{International Journal of Engineering Research and Science
   \& Technology}, vol.~21, no.~2, pp. 1083--1093, Apr. 2025. [Online].
   Available: \url{https://ijerst.org/index.php/ijerst/article/view/831}
+\BIBentrySTDinterwordspacing
+
+\bibitem{mahmood_new_2023}
+\BIBentryALTinterwordspacing
+F.~Mahmood, D.~Jeong, and J.~Ryu, ``A {New} {Approach} to {Traffic} {Accident}
+  {Anticipation} {With} {Geometric} {Features} for {Better}
+  {Generalizability},'' \emph{IEEE Access}, vol.~11, pp. 29\,263--29\,274,
+  2023. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/10077604/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{song_real-time_2025}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.30)  5 MAY 2026 15:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.30)  13 MAY 2026 12:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,7 +749,7 @@ Package csquotes Info: ... none found.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 74.
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (main.aux (Front/01_coverpage.aux) (Front/02_authorship.aux) (Front/03_copyright.aux) (Front/04_Acknowledgement.aux) (Front/05_Abstract.aux) (Front/06_Abbreviations.aux) (Sections/01_Introduction.aux) (Sections/02_LiteratureReview.aux) (Sections/03_Methodology.aux) (Sections/04_AnalysisResultsDiscussion.aux) (Sections/05_ConclusionsRecommendations.aux) (Sections/06_Appendix.aux))
+) (main.aux (Front/01_coverpage.aux) (Front/02_authorship.aux) (Front/03_copyright.aux) (Front/04_Acknowledgement.aux) (Front/05_Abstract.aux) (Front/06_Abbreviations.aux) (Sections/01_Introduction.aux) (Sections/02_LiteratureReview.aux) (Sections/03_Methodology.aux) (Sections/04_AnalysisResultsDiscussion.aux) (Sections/05_ConclusionsRecommendations.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
@@ -838,7 +838,7 @@ Package hyperref Info: Link coloring OFF on input line 74.
 \openout2 = `Front/01_coverpage.aux'.
 
  (Front/01_coverpage.tex
-<Figures/logo.png, id=242, 496.85625pt x 183.68625pt>
+<Figures/logo.png, id=226, 496.85625pt x 183.68625pt>
 File: Figures/logo.png Graphic file (type png)
 <use Figures/logo.png>
 Package pdftex.def Info: Figures/logo.png  used on input line 5.
@@ -910,8 +910,36 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout5 = `main.toc'.
 
  [6] (main.lof
-Overfull \hbox (15.3962pt too wide) in paragraph at lines 5--5
- \OT1/ptm/m/n/12 threaded in-te-gra-tion of spa-tial track-ing (YOLO11) and ki-netic anomaly 
+Overfull \hbox (8.1pt too wide) in paragraph at lines 4--4
+ [][] [][]\OT1/ptm/m/n/12 Visual com-par-i-son be-tween Sparse Op-ti-cal Flow (e.g., Lucas-Kanade) 
+ []
+
+
+Overfull \hbox (29.4001pt too wide) in paragraph at lines 4--4
+ \OT1/ptm/m/n/12 which tracks lim-ited key-points, and Dense Op-ti-cal Flow (e.g., Farneb[]ack) 
+ []
+
+
+Overfull \hbox (8.57971pt too wide) in paragraph at lines 10--10
+ \OT1/ptm/m/n/12 con-vo-lu-tional lay-ers pass-ing fea-tures into the cus-tom se-quen-tial block 
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 11.
+(C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (4.8114pt too wide) in paragraph at lines 11--11
+ \OT1/ptm/m/n/12 op-ti-cal flow com-pu-ta-tions, se-curely trans-mit-ting ten-sors via a thread- 
+ []
+
+
+Overfull \hbox (18.28786pt too wide) in paragraph at lines 11--11
+ \OT1/ptm/m/n/12 run-ning the ResNet-18 in-fer-ence, suc-cess-fully cir-cum-vent-ing the Global 
+ []
+
+
+Overfull \hbox (5.22041pt too wide) in paragraph at lines 12--12
+ \OT1/ptm/m/n/12 Panel (b) il-lus-trates the dy-namic red warn-ing over-lay trig-gered when 
  []
 
 )
@@ -921,7 +949,7 @@ Overfull \hbox (15.3962pt too wide) in paragraph at lines 5--5
  [7
 
 ] (main.lot
-Overfull \hbox (13.8724pt too wide) in paragraph at lines 10--10
+Overfull \hbox (13.8724pt too wide) in paragraph at lines 9--9
  [][] [][]\OT1/ptm/m/n/12 Computational through-put and pro-cess-ing la-tency bench-marks recorded 
  []
 
@@ -952,30 +980,21 @@ l.15
 
 
 
-] [2]
-Overfull \hbox (4.25839pt too wide) in paragraph at lines 23--24
-\OT1/ptm/m/n/12 Pro-tec-tion Reg-u-la-tion (GDPR) by dis-abling Per-son-ally Iden-ti-fi-able In-for-ma-tion (PII)
+]
+Overfull \hbox (8.15631pt too wide) in paragraph at lines 16--17
+[]\OT1/ptm/m/n/12 Conversely, al-though so-phis-ti-cated spa-tiotem-po-ral net-works, such as Transformer-
  []
 
-[3]
-Overfull \hbox (6.95872pt too wide) in paragraph at lines 28--29
-\OT1/ptm/m/n/12 e-mat-i-cally bal-anced syn-the-sis of the Car Ac-ci-dent De-tec-tion and Pre-dic-tion (CADP)
- []
-
-
-Overfull \hbox (2.95992pt too wide) in paragraph at lines 30--31
-[]\OT1/ptm/m/n/12 Ultimately, the goal is to achieve near-instantaneous de-tec-tion la-tency for Time-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 35.
-(C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+[2] [3]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 32.
+ (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [4]
-Overfull \hbox (16.6669pt too wide) in paragraph at lines 40--41
-\OT1/ptm/m/n/12 the con-text of In-tel-li-gent Trans-porta-tion Sys-tems (ITS). Chap-ter 3 de-tails the Method-
+)
+Overfull \hbox (6.11932pt too wide) in paragraph at lines 37--38
+\OT1/ptm/m/n/12 pre-hen-sive Lit-er-a-ture Re-view, ex-am-in-ing the de-vel-op-ment of ob-ject de-tec-tion, multi-
  []
 
-[5])
+[4] [5])
 \openout2 = `Sections/02_LiteratureReview.aux'.
 
  (Sections/02_LiteratureReview.tex
@@ -985,291 +1004,305 @@ Chapter 2.
 
 
 
-]
-Overfull \hbox (20.39568pt too wide) in paragraph at lines 15--16
-[]\OT1/ptm/m/n/12 Due to the lim-i-ta-tions of ex-ist-ing surveil-lance sys-tems, tran-si-tion-ing from YOLOv5
+] [7]
+Overfull \hbox (15.11458pt too wide) in paragraph at lines 27--28
+[]\OT1/ptm/m/n/12 Reconstruction-based VAD ap-proaches tra-di-tion-ally utilise a semi-supervised learn-
  []
 
-[7] [8] [9] [10] [11] [12] [13] [14]
-Overfull \hbox (11.9395pt too wide) in paragraph at lines 79--80
-\OT1/ptm/m/n/12 work by Oluwadamilola and Em-manuel [[]21[]] high-lighted the ef-fec-tive-ness of ResNet-
+[8]
+Overfull \hbox (1.22034pt too wide) in paragraph at lines 31--32
+[]\OT1/ptm/m/n/12 By train-ing di-rectly on an-no-tated datasets that in-clude both nor-mal and anoma-
+ []
+
+[9]
+Overfull \hbox (5.87978pt too wide) in paragraph at lines 36--37
+\OT1/ptm/m/n/12 Farneb[]ack [[]9[]], de-ter-mine a dis-tinct mo-tion vec-tor for each in-di-vid-ual pixel through-
+ []
+
+[10]
+<Figures/optical_flow_comparison.png, id=459, 867.24pt x 361.35pt>
+File: Figures/optical_flow_comparison.png Graphic file (type png)
+<use Figures/optical_flow_comparison.png>
+Package pdftex.def Info: Figures/optical_flow_comparison.png  used on input line 45.
+(pdftex.def)             Requested size: 336.88199pt x 140.36903pt.
+ [11]
+Overfull \hbox (0.35626pt too wide) in paragraph at lines 52--53
+[]\OT1/ptm/m/n/12 The math-e-mat-i-cal ba-sis of the Farneb[]ack al-go-rithm is based on quadratic poly-
+ []
+
+[12 <./Figures/optical_flow_comparison.png>] [13]
+Overfull \hbox (18.34311pt too wide) in paragraph at lines 84--85
+[]\OT1/ptm/m/n/12 Within the ResNet fam-ily, ResNet-18 has es-tab-lished it-self as the most lightweight
  []
 
 
-Overfull \hbox (5.61449pt too wide) in paragraph at lines 79--80
-\OT1/ptm/m/n/12 18 in clas-si-fy-ing the sever-ity of traf-fic ac-ci-dents. Their re-sults sug-gest that ResNet-
+Overfull \hbox (0.73114pt too wide) in paragraph at lines 84--85
+\OT1/ptm/m/n/12 com-pro-mise be-tween pa-ram-e-ter ef-fi-ciency and high clas-si-fi-ca-tion ac-cu-racy, ResNet-
  []
 
 
-Overfull \hbox (17.7471pt too wide) in paragraph at lines 79--80
-\OT1/ptm/m/n/12 ef-fi-ciency when com-pared to deeper, parameter-intensive ar-chi-tec-tures such as ResNet-
+Overfull \hbox (7.11482pt too wide) in paragraph at lines 84--85
+\OT1/ptm/m/n/12 ware, whilst its resid-ual frame-work en-sures the re-ten-tion of ro-bust feature-extraction
  []
 
-[15]
-Overfull \hbox (4.63078pt too wide) in paragraph at lines 91--92
+[14] [15]
+<Figures/resnet_block.png, id=512, 417.7206pt x 570.933pt>
+File: Figures/resnet_block.png Graphic file (type png)
+<use Figures/resnet_block.png>
+Package pdftex.def Info: Figures/resnet_block.png  used on input line 100.
+(pdftex.def)             Requested size: 252.6631pt x 345.33276pt.
+ [16 <./Figures/resnet_block.png>] [17] [18]
+<Figures/cadp_grid.png, id=546, 716.9184pt x 500.1084pt>
+File: Figures/cadp_grid.png Graphic file (type png)
+<use Figures/cadp_grid.png>
+Package pdftex.def Info: Figures/cadp_grid.png  used on input line 130.
+(pdftex.def)             Requested size: 336.88199pt x 235.00519pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+ [19]
+Overfull \hbox (4.63078pt too wide) in paragraph at lines 136--137
 \OT1/ptm/m/n/12 rates ob-served in single-model sys-tems, re-searchers are in-creas-ingly adopt-ing model
  []
 
-[16] [17] [18] [19] [20])
+[20 <./Figures/cadp_grid.png>] [21] [22]
+Overfull \hbox (0.82498pt too wide) in paragraph at lines 150--151
+[]\OT1/ptm/m/n/12 Furthermore, the emer-gence of Vision-Language Mod-els (VLMs) of-fers a novel
+ []
+
+
+Overfull \hbox (3.76732pt too wide) in paragraph at lines 153--154
+\OT1/ptm/m/n/12 In sum-mary, prior re-search and the as-sess-ment of con-tem-po-rary surveil-lance frame-
+ []
+
+[23] [24])
 \openout2 = `Sections/03_Methodology.aux'.
 
  (Sections/03_Methodology.tex
 Chapter 3.
-
-Overfull \hbox (5.05103pt too wide) in paragraph at lines 8--9
-\OT1/ptm/m/n/12 hy-brid vision-based pipeline de-vel-oped for real-time traf-fic anomaly de-tec-tion. Built
- []
-
-<Figures/pipeline_diagram.png, id=572, 602.25pt x 401.5pt>
-File: Figures/pipeline_diagram.png Graphic file (type png)
-<use Figures/pipeline_diagram.png>
-Package pdftex.def Info: Figures/pipeline_diagram.png  used on input line 13.
-(pdftex.def)             Requested size: 421.10089pt x 280.74176pt.
-[21
+<Figures/simple_pipeline.png, id=589, 1149.093pt x 715.473pt>
+File: Figures/simple_pipeline.png Graphic file (type png)
+<use Figures/simple_pipeline.png>
+Package pdftex.def Info: Figures/simple_pipeline.png  used on input line 18.
+(pdftex.def)             Requested size: 336.88199pt x 209.75264pt.
+[25
 
 
 
 
- <./Figures/pipeline_diagram.png>]
-Overfull \hbox (0.41974pt too wide) in paragraph at lines 23--24
-\OT1/ptm/m/n/12 The deep learn-ing com-po-nent of the hy-brid pipeline ne-ces-si-tated a ro-bust, custom-
- []
-
-[22]
-Overfull \hbox (13.6673pt too wide) in paragraph at lines 29--30
+] [26 <./Figures/simple_pipeline.png>]
+Overfull \hbox (13.6673pt too wide) in paragraph at lines 30--31
 \OT1/ptm/m/n/12 were in-cor-po-rated. The TAD videos were con-verted into dense op-ti-cal flow heatmaps
  []
 
 
-Overfull \hbox (0.20206pt too wide) in paragraph at lines 29--30
+Overfull \hbox (0.20206pt too wide) in paragraph at lines 30--31
 \OT1/ptm/m/n/12 us-ing the ex-act same OpenCV Farneb[]ack pa-ram-e-ters ap-plied to the CADP dataset,
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 37--37
-[]|\OT1/ptm/b/n/12 Source Bench-mark &
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\OT1/ptm/b/n/12 Dataset Con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-\OT1/ptm/m/n/12 (Vehicle Col-li-sions,
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\OT1/ptm/b/n/12 Source Bench-
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 40--41
-[]|\OT1/ptm/m/n/12 Generation of op-ti-cal flow
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+[]|\OT1/ptm/b/n/12 Post-Processing Ap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\OT1/ptm/m/n/12 Anomalous
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--38
+[]|\OT1/ptm/m/n/12 Vehicle Col-li-sions,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+[]|\OT1/ptm/m/n/12 Temporal an-no-ta-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+\OT1/ptm/m/n/12 to ex-tract pre-cise
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
-\OT1/ptm/m/n/12 base-lines to bal-ance the
+\OT1/ptm/m/n/12 clas-si-fi-ca-tion per-for-
  []
 
 
-Underfull \hbox (badness 5175) in paragraph at lines 41--42
-\OT1/ptm/m/n/12 si-fi-ca-tion per-for-mance and
+Overfull \hbox (25.23767pt too wide) in paragraph at lines 34--43
+ [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 47.
-(C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-Overfull \hbox (35.34013pt too wide) in paragraph at lines 47--48
-\OT1/ptm/m/n/12 mat-i-cal pre-processing layer was en-gi-neered via a cus-tom \OT1/pcr/m/n/12 StaticCameraStabiliser
+
+Overfull \hbox (6.11853pt too wide) in paragraph at lines 48--49
+\OT1/ptm/m/n/12 A prin-ci-pal chal-lenge in the train-ing of spa-tiotem-po-ral neu-ral net-works for anomaly
  []
 
-[23] [24] [25] [26]
-Overfull \hbox (9.18063pt too wide) in paragraph at lines 72--73
-\OT1/ptm/m/n/12 the scene. Within the pipeline, this is han-dled by the \OT1/pcr/m/n/12 get[]transform[]matrix()
+
+Overfull \hbox (5.29016pt too wide) in paragraph at lines 48--49
+\OT1/ptm/m/n/12 de-tec-tion re-sides in the in-her-ent class im-bal-ance char-ac-ter-is-tic of real-world surveil-
  []
 
 [27]
-Overfull \hbox (5.03998pt too wide) in paragraph at lines 77--78
-\OT1/ptm/m/n/12 Despite the high spa-tial ac-cu-racy of YOLO11, mi-nor sub-pixel vari-a-tions in bound-
+Overfull \hbox (10.75987pt too wide) in paragraph at lines 52--53
+[]\OT1/ptm/m/n/12 Despite this rig-or-ous ex-trac-tion, the num-ber of iso-lated ac-ci-dent frames markedly
  []
 
-[28] [29]
-Underfull \hbox (badness 2376) in paragraph at lines 96--97
-[]|\OT1/ptm/m/n/12 Configured to 1e-2 to model er-ratic
+[28]
+Overfull \hbox (3.60765pt too wide) in paragraph at lines 57--58
+[]\OT1/ptm/m/n/12 To op-er-a-tionalise this math-e-mat-i-cal frame-work, an au-to-mated ex-trac-tion pipeline
  []
 
-
-Overfull \hbox (112.40413pt too wide) in paragraph at lines 89--101
- [][] 
+[29] [30]
+Overfull \hbox (11.60114pt too wide) in paragraph at lines 68--69
+[]\OT1/ptm/m/n/12 During ex-e-cu-tion, the raw cam-era feed is con-tin-u-ously con-verted into a greyscale
  []
 
-[30] [31]
-Overfull \hbox (1.31601pt too wide) in paragraph at lines 115--116
-[]\OT1/ptm/m/n/12 To ad-dress the in-her-ent class im-bal-ance within the train-ing dataset where 'Nor-
- []
-
-[32]
-Overfull \hbox (0.90807pt too wide) in paragraph at lines 128--129
-[]\OT1/ptm/m/n/12 To guar-an-tee zero-latency, real-time pre-dic-tions, strict frame-dropping logic was
+[31]
+<Figures/tensor_creation.png, id=620, 1084.05pt x 361.35pt>
+File: Figures/tensor_creation.png Graphic file (type png)
+<use Figures/tensor_creation.png>
+Package pdftex.def Info: Figures/tensor_creation.png  used on input line 76.
+(pdftex.def)             Requested size: 378.98822pt x 126.33104pt.
+ [32 <./Figures/tensor_creation.png>]
+Overfull \hbox (13.90388pt too wide) in paragraph at lines 88--89
+[]\OT1/ptm/m/n/12 The cus-tomised head in-cor-po-rates a lin-ear layer that re-duces the high-dimensional
  []
 
 [33]
-Overfull \hbox (99.69374pt too wide) in paragraph at lines 139--150
+<Figures/resnet_head.png, id=631, 715.473pt x 860.013pt>
+File: Figures/resnet_head.png Graphic file (type png)
+<use Figures/resnet_head.png>
+Package pdftex.def Info: Figures/resnet_head.png  used on input line 92.
+(pdftex.def)             Requested size: 336.88199pt x 404.92792pt.
+ [34 <./Figures/resnet_head.png>]
+Overfull \hbox (7.26976pt too wide) in paragraph at lines 106--107
+[]\OT1/ptm/m/n/12 For live de-ploy-ment, the com-piled model weights (\OT1/pcr/m/n/12 best[]resnet[]model.pth\OT1/ptm/m/n/12 )
+ []
+
+[35] [36]
+<Figures/system_architecture.png, id=645, 860.013pt x 570.933pt>
+File: Figures/system_architecture.png Graphic file (type png)
+<use Figures/system_architecture.png>
+Package pdftex.def Info: Figures/system_architecture.png  used on input line 119.
+(pdftex.def)             Requested size: 378.98822pt x 251.5946pt.
+LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 120.
+<Figures/dashboard_normal.png, id=646, 1925.69438pt x 542.025pt>
+File: Figures/dashboard_normal.png Graphic file (type png)
+<use Figures/dashboard_normal.png>
+Package pdftex.def Info: Figures/dashboard_normal.png  used on input line 127.
+(pdftex.def)             Requested size: 202.12662pt x 56.88535pt.
+<Figures/dashboard_accident.png, id=647, 1923.43594pt x 542.025pt>
+File: Figures/dashboard_accident.png Graphic file (type png)
+<use Figures/dashboard_accident.png>
+Package pdftex.def Info: Figures/dashboard_accident.png  used on input line 132.
+(pdftex.def)             Requested size: 202.12662pt x 56.9515pt.
+ [37] [38 <./Figures/system_architecture.png> <./Figures/dashboard_normal.png> <./Figures/dashboard_accident.png>]
+Underfull \hbox (badness 1540) in paragraph at lines 152--153
+[]|\OT1/ptm/m/n/12 F1-Score, To-tal Ac-cu-racy (%),
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 153--153
+[]|\OT1/ptm/m/n/12 System Ro-bust-
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 153--154
+[]|\OT1/ptm/m/n/12 ROC Curve, Area un-der the
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 155--155
+[]|\OT1/ptm/m/n/12 System Op-ti-mi-
+ []
+
+
+Overfull \hbox (13.23767pt too wide) in paragraph at lines 148--158
  [][] 
  []
 
-[34]) [35]
+[39] [40])
 \openout2 = `Sections/04_AnalysisResultsDiscussion.aux'.
 
  (Sections/04_AnalysisResultsDiscussion.tex
 Chapter 4.
-
-Overfull \hbox (0.61076pt too wide) in paragraph at lines 6--7
-\OT1/ptm/m/n/12 dic-tion (CADP) bench-mark with base-line driv-ing frames from the Traf-fic Anomaly
- []
-
-[36
+[41
 
 
 
 
-]
-<Figures/F1_curve.png, id=644, 602.25pt x 401.5pt>
+] [42]
+<Figures/F1_curve.png, id=679, 578.16pt x 433.62pt>
 File: Figures/F1_curve.png Graphic file (type png)
 <use Figures/F1_curve.png>
-Package pdftex.def Info: Figures/F1_curve.png  used on input line 33.
-(pdftex.def)             Requested size: 336.88199pt x 224.5934pt.
- [37]
-<Figures/confusion_matrix.png, id=650, 602.25pt x 401.5pt>
+Package pdftex.def Info: Figures/F1_curve.png  used on input line 34.
+(pdftex.def)             Requested size: 336.88199pt x 252.65765pt.
+<Figures/confusion_matrix.png, id=681, 578.16pt x 433.62pt>
 File: Figures/confusion_matrix.png Graphic file (type png)
 <use Figures/confusion_matrix.png>
-Package pdftex.def Info: Figures/confusion_matrix.png  used on input line 42.
-(pdftex.def)             Requested size: 336.88199pt x 224.5934pt.
-<Figures/roc_curve.png, id=652, 602.25pt x 401.5pt>
+Package pdftex.def Info: Figures/confusion_matrix.png  used on input line 44.
+(pdftex.def)             Requested size: 294.76933pt x 221.0771pt.
+ [43 <./Figures/F1_curve.png>] [44 <./Figures/confusion_matrix.png>]
+<Figures/roc_curve.png, id=693, 578.16pt x 433.62pt>
 File: Figures/roc_curve.png Graphic file (type png)
 <use Figures/roc_curve.png>
-Package pdftex.def Info: Figures/roc_curve.png  used on input line 51.
-(pdftex.def)             Requested size: 336.88199pt x 224.5934pt.
- [38 <./Figures/F1_curve.png>] [39 <./Figures/confusion_matrix.png> <./Figures/roc_curve.png>]
-Overfull \hbox (5.45877pt too wide) in paragraph at lines 61--62
-\OT1/ptm/m/n/12 cess fa-cil-i-tated pre-cise dif-fer-en-ti-a-tion be-tween se-vere, non-anomalous brak-ing events
- []
-
-[40] [41] [42]
-Overfull \hbox (1.83434pt too wide) in paragraph at lines 99--100
-\OT1/ptm/m/n/12 Although the quan-ti-ta-tive met-rics ef-fec-tively val-i-date the clas-si-fi-ca-tion per-for-mance,
- []
-
-
-Overfull \hbox (0.38326pt too wide) in paragraph at lines 99--100
-\OT1/ptm/m/n/12 Ow-ing to the ab-sence of ground-truth Li-DAR or radar teleme-try within the CADP
- []
-
-<Figures/dashboard_normal.png, id=681, 602.25pt x 401.5pt>
-File: Figures/dashboard_normal.png Graphic file (type png)
-<use Figures/dashboard_normal.png>
-Package pdftex.def Info: Figures/dashboard_normal.png  used on input line 104.
-(pdftex.def)             Requested size: 378.98822pt x 252.67064pt.
-[43] [44 <./Figures/dashboard_normal.png>]
-<Figures/dashboard_accident.png, id=691, 602.25pt x 401.5pt>
-File: Figures/dashboard_accident.png Graphic file (type png)
-<use Figures/dashboard_accident.png>
-Package pdftex.def Info: Figures/dashboard_accident.png  used on input line 117.
-(pdftex.def)             Requested size: 378.98822pt x 252.67064pt.
-
-Overfull \hbox (14.30026pt too wide) in paragraph at lines 122--123
-[]\OT1/ptm/m/n/12 During test-ing un-der ad-verse en-vi-ron-men-tal con-di-tions, such as night-time surveil-
- []
-
-[45 <./Figures/dashboard_accident.png>] [46] [47]
-<Figures/ipm_distortion.png, id=708, 602.25pt x 401.5pt>
-File: Figures/ipm_distortion.png Graphic file (type png)
-<use Figures/ipm_distortion.png>
-Package pdftex.def Info: Figures/ipm_distortion.png  used on input line 140.
-(pdftex.def)             Requested size: 336.88199pt x 224.5934pt.
-) [48 <./Figures/ipm_distortion.png>]
+Package pdftex.def Info: Figures/roc_curve.png  used on input line 58.
+(pdftex.def)             Requested size: 336.88199pt x 252.65765pt.
+ [45 <./Figures/roc_curve.png>] [46] [47] [48] [49]) [50]
 \openout2 = `Sections/05_ConclusionsRecommendations.aux'.
 
  (Sections/05_ConclusionsRecommendations.tex
 Chapter 5.
 
-Overfull \hbox (7.0552pt too wide) in paragraph at lines 9--10
-\OT1/ptm/m/n/12 in a com-pre-hen-sive, real-world-ready pro-to-type suit-able for mu-nic-i-pal traf-fic surveil-
+Overfull \hbox (4.18645pt too wide) in paragraph at lines 9--10
+\OT1/ptm/m/n/12 phys-i-cal data into HSV ten-sors for pat-tern recog-ni-tion by a custom-trained ResNet-
  []
 
-[49
+[51
 
 
 
 
 ]
-Overfull \hbox (4.75005pt too wide) in paragraph at lines 18--19
-\OT1/ptm/m/n/12 surveil-lance. Firstly, it val-i-dates a com-pu-ta-tion-ally ef-fi-cient al-ter-na-tive to parameter-
+Overfull \hbox (1.79865pt too wide) in paragraph at lines 15--16
+\OT1/ptm/m/n/12 en-vi-ron-men-tal chal-lenges as-so-ci-ated with vision-based de-tec-tion, the eval-u-a-tion em-
  []
 
-[50] [51] [52] [53]) (main.bbl
+[52] [53] [54] [55]) (main.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-[54
+[56
 
 
 
-]
+] [57]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-[55]
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-** WARNING: IEEEtran.bst: No hyphenation pattern has been
-** loaded for the language `en'. Using the pattern for
-** the default language instead.
-[56] [57]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
@@ -1283,42 +1316,39 @@ Overfull \hbox (4.75005pt too wide) in paragraph at lines 18--19
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
-) [59]
-\openout2 = `Sections/06_Appendix.aux'.
-
- (Sections/06_Appendix.tex
-Appendix A.
-[60
-
-
-]
-Appendix B.
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 25.
-(Code/sample.py
-LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <8> not available
-(Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 1.
-)) [61
-
-] (main.aux (Front/01_coverpage.aux) (Front/02_authorship.aux) (Front/03_copyright.aux) (Front/04_Acknowledgement.aux) (Front/05_Abstract.aux) (Front/06_Abbreviations.aux) (Sections/01_Introduction.aux) (Sections/02_LiteratureReview.aux) (Sections/03_Methodology.aux) (Sections/04_AnalysisResultsDiscussion.aux) (Sections/05_ConclusionsRecommendations.aux) (Sections/06_Appendix.aux))
+[59]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+[60]) [61] (main.aux (Front/01_coverpage.aux) (Front/02_authorship.aux) (Front/03_copyright.aux) (Front/04_Acknowledgement.aux) (Front/05_Abstract.aux) (Front/06_Abbreviations.aux) (Sections/01_Introduction.aux) (Sections/02_LiteratureReview.aux) (Sections/03_Methodology.aux) (Sections/04_AnalysisResultsDiscussion.aux) (Sections/05_ConclusionsRecommendations.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6CF8BA09FBF82E1C662658A1A5A76202;13271.
+(rerunfilecheck)             Checksum: 3E285806F23D10F886D966C5C42268D3;12172.
  ) 
 Here is how much of TeX's memory you used:
- 28587 strings out of 467871
- 533429 string characters out of 5417892
- 1213330 words of memory out of 5000000
- 56656 multiletter control sequences out of 15000+600000
- 661793 words of font info for 104 fonts, out of 8000000 for 9000
+ 28207 strings out of 467871
+ 530215 string characters out of 5417892
+ 1183330 words of memory out of 5000000
+ 56301 multiletter control sequences out of 15000+600000
+ 669871 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,117p,2069b,1322s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (71 pages, 456740 bytes).
+ 99i,13n,117p,1599b,739s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (71 pages, 13753312 bytes).
 PDF statistics:
- 922 PDF objects out of 1000 (max. 8388607)
- 194 named destinations out of 1000 (max. 500000)
- 525 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 899 PDF objects out of 1000 (max. 8388607)
+ 178 named destinations out of 1000 (max. 500000)
+ 518 words of extra memory for PDF output out of 10000 (max. 10000000)
 

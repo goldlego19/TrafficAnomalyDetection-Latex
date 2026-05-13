@@ -2,12 +2,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of Database Constituents and Sources}}{24}{table.caption.12}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Kinematic Trajectory \& Kalman Filter Variables}}{30}{table.caption.13}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Summary of Evaluation Metrics and KPIs}}{35}{table.caption.14}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Summary of Database Constituents and Sources}}{27}{table.caption.15}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Evaluation Metrics for the Spatiotemporal Architecture}}{40}{table.caption.20}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of classification metrics for the custom-trained ResNet-18 model.}}{37}{table.caption.15}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Computational throughput and processing latency benchmarks recorded during system evaluation on consumer-grade hardware.}}{43}{table.caption.19}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of Classification Metrics evaluated on the balanced validation dataset.}}{42}{table.caption.21}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Computational throughput and processing latency benchmarks recorded during system evaluation on consumer-grade hardware.}}{48}{table.caption.25}%
 \addvspace {10\p@ }
