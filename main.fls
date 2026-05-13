@@ -98,6 +98,8 @@ INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigur
 INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.cfg
 INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.cfg
 INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\subfigure\subfigure.cfg
+INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.sty
 INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\lipsum\lipsum.sty
 INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
@@ -349,6 +351,8 @@ INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epsto
 INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT .\main.out
 INPUT .\main.out
 INPUT main.out

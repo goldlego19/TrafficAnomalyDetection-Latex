@@ -53,4 +53,4 @@
 \contentsline {section}{\numberline {5.4}Research Limitations}{53}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Recommendations for Future Work}{54}{section.5.5}%
 \contentsline {section}{\numberline {5.6}Final Remarks}{55}{section.5.6}%
-\contentsline {chapter}{List of References}{56}{chapter*.26}%
+\contentsline {chapter}{List of References}{56}{chapter*.25}%

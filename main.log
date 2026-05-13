@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.30)  13 MAY 2026 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.30)  13 MAY 2026 12:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -293,35 +293,53 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.cfg)
 \subfig@top=\skip58
 \subfig@bottom=\skip59
+) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
+\LTchunksize=\count324
+\LTcapwidth=\dimen266
+\LT@head=\box61
+\LT@firsthead=\box62
+\LT@foot=\box63
+\LT@lastfoot=\box64
+\LT@gbox=\box65
+\LT@cols=\count325
+\LT@rows=\count326
+\c@LT@tables=\count327
+\c@LT@chunks=\count328
+\LT@p@ftn=\toks30
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-12-24 L3 programming layer (loader) 
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count324
+\l__color_backend_stack_int=\count329
 ))
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count325
-\l__lipsum_a_int=\count326
-\l__lipsum_b_int=\count327
+\g__lipsum_par_int=\count330
+\l__lipsum_a_int=\count331
+\l__lipsum_b_int=\count332
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
-\f@nch@headwidth=\skip60
-\f@nch@offset@elh=\skip61
-\f@nch@offset@erh=\skip62
-\f@nch@offset@olh=\skip63
-\f@nch@offset@orh=\skip64
-\f@nch@offset@elf=\skip65
-\f@nch@offset@erf=\skip66
-\f@nch@offset@olf=\skip67
-\f@nch@offset@orf=\skip68
-\f@nch@height=\skip69
-\f@nch@footalignment=\skip70
-\f@nch@widthL=\skip71
-\f@nch@widthC=\skip72
-\f@nch@widthR=\skip73
-\@temptokenb=\toks30
+\f@nch@headwidth=\skip64
+\f@nch@offset@elh=\skip65
+\f@nch@offset@erh=\skip66
+\f@nch@offset@olh=\skip67
+\f@nch@offset@orh=\skip68
+\f@nch@offset@elf=\skip69
+\f@nch@offset@erf=\skip70
+\f@nch@offset@olf=\skip71
+\f@nch@offset@orf=\skip72
+\f@nch@height=\skip73
+\f@nch@footalignment=\skip74
+\f@nch@widthL=\skip75
+\f@nch@widthC=\skip76
+\f@nch@widthR=\skip77
+\@temptokenb=\toks31
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -329,25 +347,25 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen266
-\ar@mcellbox=\box61
-\extrarowheight=\dimen267
-\NC@list=\toks31
-\extratabsurround=\skip74
-\backup@length=\skip75
-\ar@cellbox=\box62
+\col@sep=\dimen267
+\ar@mcellbox=\box66
+\extrarowheight=\dimen268
+\NC@list=\toks32
+\extratabsurround=\skip78
+\backup@length=\skip79
+\ar@cellbox=\box67
 )
-\TX@col@width=\dimen268
-\TX@old@table=\dimen269
-\TX@old@col=\dimen270
-\TX@target=\dimen271
-\TX@delta=\dimen272
-\TX@cols=\count328
-\TX@ftn=\toks32
+\TX@col@width=\dimen269
+\TX@old@table=\dimen270
+\TX@old@col=\dimen271
+\TX@target=\dimen272
+\TX@delta=\dimen273
+\TX@cols=\count333
+\TX@ftn=\toks33
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks33
-\inpenc@posthook=\toks34
+\inpenc@prehook=\toks34
+\inpenc@posthook=\toks35
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
@@ -387,15 +405,15 @@ LaTeX Info: Redefining \hbar on input line 50.
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count329
+\etb@tempcnta=\count334
 )
-\csq@reset=\count330
-\csq@gtype=\count331
-\csq@glevel=\count332
-\csq@qlevel=\count333
-\csq@maxlvl=\count334
-\csq@tshold=\count335
-\csq@ltx@everypar=\toks35
+\csq@reset=\count335
+\csq@gtype=\count336
+\csq@glevel=\count337
+\csq@qlevel=\count338
+\csq@maxlvl=\count339
+\csq@tshold=\count340
+\csq@ltx@everypar=\toks36
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
@@ -405,15 +423,15 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box63
-\beforetitleunit=\skip76
-\aftertitleunit=\skip77
-\ttl@plus=\dimen273
-\ttl@minus=\dimen274
-\ttl@toksa=\toks36
-\titlewidth=\dimen275
-\titlewidthlast=\dimen276
-\titlewidthfirst=\dimen277
+\ttl@box=\box68
+\beforetitleunit=\skip80
+\aftertitleunit=\skip81
+\ttl@plus=\dimen274
+\ttl@minus=\dimen275
+\ttl@toksa=\toks37
+\titlewidth=\dimen276
+\titlewidthlast=\dimen277
+\titlewidthfirst=\dimen278
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
@@ -423,9 +441,9 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-\everycr=\toks37
-\minrowclearance=\skip78
-\rownum=\count336
+\everycr=\toks38
+\minrowclearance=\skip82
+\rownum=\count341
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
 Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
 Package: todonotes 2024/01/05
@@ -449,11 +467,11 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks38
-\pgfutil@tempdima=\dimen278
-\pgfutil@tempdimb=\dimen279
+\pgfutil@everybye=\toks39
+\pgfutil@tempdima=\dimen279
+\pgfutil@tempdimb=\dimen280
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box64
+\pgfutil@abb=\box69
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
@@ -461,31 +479,31 @@ Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks39
-\pgfkeys@temptoks=\toks40
+\pgfkeys@pathtoks=\toks40
+\pgfkeys@temptoks=\toks41
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks41
+\pgfkeys@tmptoks=\toks42
 ))
-\pgf@x=\dimen280
-\pgf@y=\dimen281
-\pgf@xa=\dimen282
-\pgf@ya=\dimen283
-\pgf@xb=\dimen284
-\pgf@yb=\dimen285
-\pgf@xc=\dimen286
-\pgf@yc=\dimen287
-\pgf@xd=\dimen288
-\pgf@yd=\dimen289
+\pgf@x=\dimen281
+\pgf@y=\dimen282
+\pgf@xa=\dimen283
+\pgf@ya=\dimen284
+\pgf@xb=\dimen285
+\pgf@yb=\dimen286
+\pgf@xc=\dimen287
+\pgf@yc=\dimen288
+\pgf@xd=\dimen289
+\pgf@yd=\dimen290
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count337
-\c@pgf@countb=\count338
-\c@pgf@countc=\count339
-\c@pgf@countd=\count340
-\t@pgf@toka=\toks42
-\t@pgf@tokb=\toks43
-\t@pgf@tokc=\toks44
-\pgf@sys@id@count=\count341
+\c@pgf@counta=\count342
+\c@pgf@countb=\count343
+\c@pgf@countc=\count344
+\c@pgf@countd=\count345
+\t@pgf@toka=\toks43
+\t@pgf@tokb=\toks44
+\t@pgf@tokc=\toks45
+\pgf@sys@id@count=\count346
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
@@ -496,59 +514,59 @@ File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count342
-\pgfsyssoftpath@bigbuffer@items=\count343
+\pgfsyssoftpath@smallbuffer@items=\count347
+\pgfsyssoftpath@bigbuffer@items=\count348
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen290
-\pgfmath@count=\count344
-\pgfmath@box=\box65
-\pgfmath@toks=\toks45
-\pgfmath@stack@operand=\toks46
-\pgfmath@stack@operation=\toks47
+\pgfmath@dimen=\dimen291
+\pgfmath@count=\count349
+\pgfmath@box=\box70
+\pgfmath@toks=\toks46
+\pgfmath@stack@operand=\toks47
+\pgfmath@stack@operation=\toks48
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count345
+\c@pgfmathroundto@lastzeros=\count350
 )) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen291
-\pgf@picmaxx=\dimen292
-\pgf@picminy=\dimen293
-\pgf@picmaxy=\dimen294
-\pgf@pathminx=\dimen295
-\pgf@pathmaxx=\dimen296
-\pgf@pathminy=\dimen297
-\pgf@pathmaxy=\dimen298
-\pgf@xx=\dimen299
-\pgf@xy=\dimen300
-\pgf@yx=\dimen301
-\pgf@yy=\dimen302
-\pgf@zx=\dimen303
-\pgf@zy=\dimen304
+\pgf@picminx=\dimen292
+\pgf@picmaxx=\dimen293
+\pgf@picminy=\dimen294
+\pgf@picmaxy=\dimen295
+\pgf@pathminx=\dimen296
+\pgf@pathmaxx=\dimen297
+\pgf@pathminy=\dimen298
+\pgf@pathmaxy=\dimen299
+\pgf@xx=\dimen300
+\pgf@xy=\dimen301
+\pgf@yx=\dimen302
+\pgf@yy=\dimen303
+\pgf@zx=\dimen304
+\pgf@zy=\dimen305
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen305
-\pgf@path@lasty=\dimen306
+\pgf@path@lastx=\dimen306
+\pgf@path@lasty=\dimen307
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen307
-\pgf@shorten@start@additional=\dimen308
+\pgf@shorten@end@additional=\dimen308
+\pgf@shorten@start@additional=\dimen309
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box66
-\pgf@hbox=\box67
-\pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count346
+\pgfpic=\box71
+\pgf@hbox=\box72
+\pgf@layerbox@main=\box73
+\pgf@picture@serial@count=\count351
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen309
+\pgflinewidth=\dimen310
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen310
-\pgf@pt@y=\dimen311
-\pgf@pt@temp=\dimen312
+\pgf@pt@x=\dimen311
+\pgf@pt@y=\dimen312
+\pgf@pt@temp=\dimen313
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -557,17 +575,17 @@ File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen313
+\pgfarrowsep=\dimen314
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen314
-\pgf@sys@shading@range@num=\count347
-\pgf@shadingcount=\count348
+\pgf@max=\dimen315
+\pgf@sys@shading@range@num=\count352
+\pgf@shadingcount=\count353
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box69
+\pgfexternal@startupbox=\box74
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -578,69 +596,69 @@ File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box70
+\pgfnodeparttextbox=\box75
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen315
-\pgf@nodesepend=\dimen316
+\pgf@nodesepstart=\dimen316
+\pgf@nodesepend=\dimen317
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 )) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen317
-\pgffor@skip=\dimen318
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@iter=\dimen318
+\pgffor@skip=\dimen319
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
 )) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count349
-\pgfplotmarksize=\dimen319
+\pgf@plot@mark@count=\count354
+\pgfplotmarksize=\dimen320
 )
-\tikz@lastx=\dimen320
-\tikz@lasty=\dimen321
-\tikz@lastxsaved=\dimen322
-\tikz@lastysaved=\dimen323
-\tikz@lastmovetox=\dimen324
-\tikz@lastmovetoy=\dimen325
-\tikzleveldistance=\dimen326
-\tikzsiblingdistance=\dimen327
-\tikz@figbox=\box71
-\tikz@figbox@bg=\box72
-\tikz@tempbox=\box73
-\tikz@tempbox@bg=\box74
-\tikztreelevel=\count350
-\tikznumberofchildren=\count351
-\tikznumberofcurrentchild=\count352
-\tikz@fig@count=\count353
+\tikz@lastx=\dimen321
+\tikz@lasty=\dimen322
+\tikz@lastxsaved=\dimen323
+\tikz@lastysaved=\dimen324
+\tikz@lastmovetox=\dimen325
+\tikz@lastmovetoy=\dimen326
+\tikzleveldistance=\dimen327
+\tikzsiblingdistance=\dimen328
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count355
+\tikznumberofchildren=\count356
+\tikznumberofcurrentchild=\count357
+\tikz@fig@count=\count358
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count354
-\pgfmatrixcurrentcolumn=\count355
-\pgf@matrix@numberofcolumns=\count356
+\pgfmatrixcurrentrow=\count359
+\pgfmatrixcurrentcolumn=\count360
+\pgf@matrix@numberofcolumns=\count361
 )
-\tikz@expandcount=\count357
+\tikz@expandcount=\count362
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count358
-\calc@Bcount=\count359
-\calc@Adimen=\dimen328
-\calc@Bdimen=\dimen329
-\calc@Askip=\skip79
-\calc@Bskip=\skip80
+\calc@Acount=\count363
+\calc@Bcount=\count364
+\calc@Adimen=\dimen329
+\calc@Bdimen=\dimen330
+\calc@Askip=\skip83
+\calc@Bskip=\skip84
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count360
-\calc@Cskip=\skip81
+\calc@Ccount=\count365
+\calc@Cskip=\skip85
 )
-\c@@todonotes@numberoftodonotes=\count361
+\c@@todonotes@numberoftodonotes=\count366
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
@@ -670,13 +688,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count362
+\c@section@level=\count367
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen330
-\Hy@linkcounter=\count363
-\Hy@pagecounter=\count364
+\@linkdim=\dimen331
+\Hy@linkcounter=\count368
+\Hy@pagecounter=\count369
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -684,7 +702,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count365
+\Hy@SavedSpaceFactor=\count370
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -697,17 +715,17 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count366
+\c@Hy@tempcnt=\count371
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen331
+\XeTeXLinkMargin=\dimen332
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count367
-\Field@Width=\dimen332
-\Fld@charsize=\dimen333
+\Fld@menulength=\count372
+\Field@Width=\dimen333
+\Fld@charsize=\dimen334
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -715,61 +733,61 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count368
-\c@Item=\count369
-\c@Hfootnote=\count370
+\Hy@abspage=\count373
+\c@Item=\count374
+\c@Hfootnote=\count375
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count371
-\c@bookmark@seq@number=\count372
 
-(C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count376
+\c@bookmark@seq@number=\count377
+ (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
-\Hy@SectionHShift=\skip82
+\Hy@SectionHShift=\skip86
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip83
-\enit@outerparindent=\dimen334
-\enit@toks=\toks50
-\enit@inbox=\box75
-\enit@count@id=\count373
-\enitdp@description=\count374
+\labelindent=\skip87
+\enit@outerparindent=\dimen335
+\enit@toks=\toks51
+\enit@inbox=\box80
+\enit@count@id=\count378
+\enitdp@description=\count379
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 74.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 75.
  (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (main.aux (Front/01_coverpage.aux) (Front/02_authorship.aux) (Front/03_copyright.aux) (Front/04_Acknowledgement.aux) (Front/05_Abstract.aux) (Front/06_Abbreviations.aux) (Sections/01_Introduction.aux) (Sections/02_LiteratureReview.aux) (Sections/03_Methodology.aux) (Sections/04_AnalysisResultsDiscussion.aux) (Sections/05_ConclusionsRecommendations.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -805,20 +823,20 @@ LaTeX Font Info:    ... okay on input line 74.
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count375
+\c@lstlisting=\count380
 (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count376
-\scratchdimen=\dimen335
-\scratchbox=\box76
-\nofMPsegments=\count377
-\nofMParguments=\count378
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count379
-\MPscratchDim=\dimen336
-\MPnumerator=\count380
-\makeMPintoPDFobject=\count381
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count381
+\scratchdimen=\dimen336
+\scratchbox=\box81
+\nofMPsegments=\count382
+\nofMParguments=\count383
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count384
+\MPscratchDim=\dimen337
+\MPnumerator=\count385
+\makeMPintoPDFobject=\count386
+\everyMPtoPDFconversion=\toks53
 ) (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -828,9 +846,13 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\Denzel\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 75.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -962,10 +984,15 @@ Overfull \hbox (13.8724pt too wide) in paragraph at lines 9--9
 ]
 \openout2 = `Front/06_Abbreviations.aux'.
 
- (Front/06_Abbreviations.tex [9
+ (Front/06_Abbreviations.tex
+Overfull \hbox (1.23767pt too wide) in alignment at lines 13--56
+[] []
+ []
+
+Front/06_Abbreviations.tex:56: ignored error: Infinite glue shrinkage found in box being split [9
 
 
-])
+] [10])
 \openout2 = `Sections/01_Introduction.aux'.
 
  (Sections/01_Introduction.tex
@@ -1020,7 +1047,7 @@ Overfull \hbox (5.87978pt too wide) in paragraph at lines 36--37
  []
 
 [10]
-<Figures/optical_flow_comparison.png, id=459, 867.24pt x 361.35pt>
+<Figures/optical_flow_comparison.png, id=463, 867.24pt x 361.35pt>
 File: Figures/optical_flow_comparison.png Graphic file (type png)
 <use Figures/optical_flow_comparison.png>
 Package pdftex.def Info: Figures/optical_flow_comparison.png  used on input line 45.
@@ -1046,13 +1073,13 @@ Overfull \hbox (7.11482pt too wide) in paragraph at lines 84--85
  []
 
 [14] [15]
-<Figures/resnet_block.png, id=512, 417.7206pt x 570.933pt>
+<Figures/resnet_block.png, id=516, 417.7206pt x 570.933pt>
 File: Figures/resnet_block.png Graphic file (type png)
 <use Figures/resnet_block.png>
 Package pdftex.def Info: Figures/resnet_block.png  used on input line 100.
 (pdftex.def)             Requested size: 252.6631pt x 345.33276pt.
  [16 <./Figures/resnet_block.png>] [17] [18]
-<Figures/cadp_grid.png, id=546, 716.9184pt x 500.1084pt>
+<Figures/cadp_grid.png, id=550, 716.9184pt x 500.1084pt>
 File: Figures/cadp_grid.png Graphic file (type png)
 <use Figures/cadp_grid.png>
 Package pdftex.def Info: Figures/cadp_grid.png  used on input line 130.
@@ -1083,7 +1110,7 @@ Overfull \hbox (3.76732pt too wide) in paragraph at lines 153--154
 
  (Sections/03_Methodology.tex
 Chapter 3.
-<Figures/simple_pipeline.png, id=589, 1149.093pt x 715.473pt>
+<Figures/simple_pipeline.png, id=593, 1149.093pt x 715.473pt>
 File: Figures/simple_pipeline.png Graphic file (type png)
 <use Figures/simple_pipeline.png>
 Package pdftex.def Info: Figures/simple_pipeline.png  used on input line 18.
@@ -1174,7 +1201,7 @@ Overfull \hbox (11.60114pt too wide) in paragraph at lines 68--69
  []
 
 [31]
-<Figures/tensor_creation.png, id=620, 1084.05pt x 361.35pt>
+<Figures/tensor_creation.png, id=624, 1084.05pt x 361.35pt>
 File: Figures/tensor_creation.png Graphic file (type png)
 <use Figures/tensor_creation.png>
 Package pdftex.def Info: Figures/tensor_creation.png  used on input line 76.
@@ -1185,7 +1212,7 @@ Overfull \hbox (13.90388pt too wide) in paragraph at lines 88--89
  []
 
 [33]
-<Figures/resnet_head.png, id=631, 715.473pt x 860.013pt>
+<Figures/resnet_head.png, id=635, 715.473pt x 860.013pt>
 File: Figures/resnet_head.png Graphic file (type png)
 <use Figures/resnet_head.png>
 Package pdftex.def Info: Figures/resnet_head.png  used on input line 92.
@@ -1196,19 +1223,19 @@ Overfull \hbox (7.26976pt too wide) in paragraph at lines 106--107
  []
 
 [35] [36]
-<Figures/system_architecture.png, id=645, 860.013pt x 570.933pt>
+<Figures/system_architecture.png, id=649, 860.013pt x 570.933pt>
 File: Figures/system_architecture.png Graphic file (type png)
 <use Figures/system_architecture.png>
 Package pdftex.def Info: Figures/system_architecture.png  used on input line 119.
 (pdftex.def)             Requested size: 378.98822pt x 251.5946pt.
 LaTeX Font Info:    Font shape `OT1/pcr/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/pcr/m/sl' tried instead on input line 120.
-<Figures/dashboard_normal.png, id=646, 1925.69438pt x 542.025pt>
+<Figures/dashboard_normal.png, id=650, 1925.69438pt x 542.025pt>
 File: Figures/dashboard_normal.png Graphic file (type png)
 <use Figures/dashboard_normal.png>
 Package pdftex.def Info: Figures/dashboard_normal.png  used on input line 127.
 (pdftex.def)             Requested size: 202.12662pt x 56.88535pt.
-<Figures/dashboard_accident.png, id=647, 1923.43594pt x 542.025pt>
+<Figures/dashboard_accident.png, id=651, 1923.43594pt x 542.025pt>
 File: Figures/dashboard_accident.png Graphic file (type png)
 <use Figures/dashboard_accident.png>
 Package pdftex.def Info: Figures/dashboard_accident.png  used on input line 132.
@@ -1249,18 +1276,18 @@ Chapter 4.
 
 
 ] [42]
-<Figures/F1_curve.png, id=679, 578.16pt x 433.62pt>
+<Figures/F1_curve.png, id=683, 578.16pt x 433.62pt>
 File: Figures/F1_curve.png Graphic file (type png)
 <use Figures/F1_curve.png>
 Package pdftex.def Info: Figures/F1_curve.png  used on input line 34.
 (pdftex.def)             Requested size: 336.88199pt x 252.65765pt.
-<Figures/confusion_matrix.png, id=681, 578.16pt x 433.62pt>
+<Figures/confusion_matrix.png, id=685, 578.16pt x 433.62pt>
 File: Figures/confusion_matrix.png Graphic file (type png)
 <use Figures/confusion_matrix.png>
 Package pdftex.def Info: Figures/confusion_matrix.png  used on input line 44.
 (pdftex.def)             Requested size: 294.76933pt x 221.0771pt.
  [43 <./Figures/F1_curve.png>] [44 <./Figures/confusion_matrix.png>]
-<Figures/roc_curve.png, id=693, 578.16pt x 433.62pt>
+<Figures/roc_curve.png, id=698, 578.16pt x 433.62pt>
 File: Figures/roc_curve.png Graphic file (type png)
 <use Figures/roc_curve.png>
 Package pdftex.def Info: Figures/roc_curve.png  used on input line 58.
@@ -1335,20 +1362,20 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3E285806F23D10F886D966C5C42268D3;12172.
+(rerunfilecheck)             Checksum: D598B0D8B9A4DB0206D84FD832425888;12172.
  ) 
 Here is how much of TeX's memory you used:
- 28207 strings out of 467871
- 530215 string characters out of 5417892
- 1183330 words of memory out of 5000000
- 56301 multiletter control sequences out of 15000+600000
+ 28357 strings out of 467871
+ 532786 string characters out of 5417892
+ 1193763 words of memory out of 5000000
+ 56445 multiletter control sequences out of 15000+600000
  669871 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,117p,1599b,739s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Denzel/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (71 pages, 13753306 bytes).
+Output written on main.pdf (72 pages, 13755617 bytes).
 PDF statistics:
- 899 PDF objects out of 1000 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
+ 903 PDF objects out of 1000 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
  518 words of extra memory for PDF output out of 10000 (max. 10000000)
 
